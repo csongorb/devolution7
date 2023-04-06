@@ -30,6 +30,9 @@ function Navbar() {
     <>
         <nav className="navbar">
             <div className="navbar-container">
+                <div class="navbar-logo">
+                    <img src={process.env.PUBLIC_URL + 'small logo-no-bg.png'} alt="devolution logo"/>
+                </div> 
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} /> 
                 </div>
