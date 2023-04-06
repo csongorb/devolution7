@@ -44,15 +44,14 @@ function Cards() {
                     label="Version"
                     path="/services"
                     />
-                </ul>
-                <ul className='cards__items'>
                     <CardItem 
                     src={image5}
                     text="Version 5"
                     label="Version"
                     path="/services"
                     />
-               
+                </ul>
+                <ul className='cards__items'>               
                     <CardItem 
                     src={image6}
                     text="Version 6"
