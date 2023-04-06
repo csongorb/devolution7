@@ -13,7 +13,7 @@ import image6 from "../../src/assets/images/lmd_6.jpg"
 function Cards() {
   return (
     <div className='cards'>
-        <h1>check out this card!</h1>
+        <h1>check out these cards!</h1>
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
