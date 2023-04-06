@@ -21,13 +21,13 @@ function Cards() {
                     src={image1}
                     text="Version 1"
                     label="Version"
-                    path="/services"
+                    path="/wip-page"
                     />
                     <CardItem 
                     src={image2}
                     text="Version 2"
                     label="Version"
-                    path="/services"
+                    path="/wip-page"
                     />
                 </ul> 
                 
@@ -36,19 +36,19 @@ function Cards() {
                     src={image3}
                     text="Version 3"
                     label="Version"
-                    path="/services"
+                    path="/wip-page"
                     />
                     <CardItem 
                     src={image4}
                     text="Version 4"
                     label="Version"
-                    path="/services"
+                    path="/wip-page"
                     />
                     <CardItem 
                     src={image5}
                     text="Version 5"
                     label="Version"
-                    path="/services"
+                    path="/wip-page"
                     />
                 </ul>
                 <ul className='cards__items'>               
@@ -56,7 +56,7 @@ function Cards() {
                     src={image6}
                     text="Version 6"
                     label="Version"
-                    path="/services"
+                    path="/wip-page"
                     />
                 </ul>
             </div>
