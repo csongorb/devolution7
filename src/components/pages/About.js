@@ -1,7 +1,13 @@
 import React from "react";
-import '../../App.css'
+import LeafletMap from '../LeafletMap';
+import '../../App.css';
 
-export default function About()
+function About()
 {
-    return<h1 className="about">ABOUT</h1>;
+    return(
+        <>
+        <LeafletMap />
+        </>
+    );
 }
+export default About;
