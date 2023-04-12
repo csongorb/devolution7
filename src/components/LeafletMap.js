@@ -1,21 +1,28 @@
 import React from 'react'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, SVGOverlay } from 'react-leaflet'
 import "./LeafletMap.css"
 
+import {ReactComponent as SvgElement0} from './bg.svg';
+import {ReactComponent as SvgElement1} from './tree.svg';
 function LeafletMap ()
 {
+    const position = [51.505, -0.09]
+    const bounds = [[51.49, -0.08],  [51.5, -0.06],]
+
+    
     return(
         <div id="map">            
-            <MapContainer 
-            center={[43.38621, -79.83713]} 
-            zoom="13" 
-            scrollWheelZoom={false}
+            <MapContainer  center={position} zoom={15} scrollWheelZoom={false}
             style={{height: "100vh"}}
             >
-            <TileLayer
-                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
+            <SVGOverlay bounds={bounds} zIndex={0}>
+                <SvgElement0 />
+            </SVGOverlay>
+
+            <SVGOverlay bounds={bounds} zIndex={1}>
+                <SvgElement1 />
+            </SVGOverlay>
+
             </MapContainer>
         </div>
     )
