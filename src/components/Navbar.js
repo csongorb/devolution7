@@ -47,18 +47,7 @@ function Navbar() {
                             About
                         </Link>
                     </li>
-                    <li className='nav-item'>
-                        <Link to='/some-page' className='nav-links' onClick={closeMobileMenu}>
-                            SomePage
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to='/another-page' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Another Page
-                        </Link>
-                    </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Questions?</Button>}
             </div>
         </nav>
     </>

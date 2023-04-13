@@ -1,6 +1,5 @@
 import React from 'react'
 import { MapContainer, SVGOverlay, Marker, Popup } from 'react-leaflet'
-import "./LeafletMap.css"
 
 import {ReactComponent as SvgElement0} from './bg.svg';
 import {ReactComponent as SvgElement1} from './tree.svg';
@@ -13,7 +12,7 @@ function LeafletMap ()
 
     
     return(
-        <div className="map-container">            
+        <div >            
             <MapContainer  center={position} zoom={6} scrollWheelZoom={false}
             style={{height: 700, width : "100%"}}
             >

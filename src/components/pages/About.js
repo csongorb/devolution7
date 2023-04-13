@@ -6,7 +6,7 @@ function About()
 {
     return(
         <>
-        <LeafletMap />
+       <h1>nothing</h1>
         </>
     );
 }
