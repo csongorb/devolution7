@@ -1,6 +1,5 @@
 import React from 'react'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import CustomTileLayer from "./CustomTileLayer"
+import { MapContainer, TileLayer } from 'react-leaflet'
 
 function LeafletMap ()
 {
