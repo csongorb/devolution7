@@ -5,19 +5,17 @@ import CustomTileLayer from "./CustomTileLayer"
 function LeafletMap ()
 {
 
-    const position = [22, -115]
-    const bounds = [[32, -130],  [13, -100]]
-
+    const center = [51.505, -0.09]
 
     return(
         <div >            
-            <MapContainer  center={position} zoom={5} scrollWheelZoom={false}
+            <MapContainer  center={center} zoom={2} scrollWheelZoom={false}
             style={{height: 700, width : "100%"}}
             >
                     <TileLayer 
                         noWrap={true}
                         name="Test"
-                        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        url="http://localhost:8000/CustomTiles/{z}/{x}/{y}.png"
 />
             </MapContainer>
         </div>
