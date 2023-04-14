@@ -1,33 +1,24 @@
 import React from 'react'
-import { MapContainer, SVGOverlay, Marker, Popup } from 'react-leaflet'
-
-import {ReactComponent as SvgElement0} from './bg.svg';
-import {ReactComponent as SvgElement1} from './tree.svg';
-//import {ReactComponent as SvgElement2} from './diagram50.svg';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import CustomTileLayer from "./CustomTileLayer"
 
 function LeafletMap ()
 {
+
     const position = [22, -115]
     const bounds = [[32, -130],  [13, -100]]
 
-    
+
     return(
         <div >            
-            <MapContainer  center={position} zoom={6} scrollWheelZoom={false}
+            <MapContainer  center={position} zoom={5} scrollWheelZoom={false}
             style={{height: 700, width : "100%"}}
             >
-            <SVGOverlay  bounds={bounds} zIndex={0}>
-                <SvgElement0 />
-            </SVGOverlay>
-            <SVGOverlay  bounds={bounds} zIndex={1} >
-                <SvgElement1 />
-            </SVGOverlay>
-
-            <Marker position={bounds[0]}>
-                <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-            </Marker>
+                    <TileLayer 
+                        noWrap={true}
+                        name="Test"
+                        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+/>
             </MapContainer>
         </div>
     )
