@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devolution7/static/css/main.5cd55fc3.css",
+    "main.js": "/devolution7/static/js/main.83ac0e6d.js",
+    "index.html": "/devolution7/index.html",
+    "main.5cd55fc3.css.map": "/devolution7/static/css/main.5cd55fc3.css.map",
+    "main.83ac0e6d.js.map": "/devolution7/static/js/main.83ac0e6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cd55fc3.css",
+    "static/js/main.83ac0e6d.js"
+  ]
+}
