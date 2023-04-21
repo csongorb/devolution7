@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/devolution7/static/css/main.e82397ac.css",
-    "main.js": "/devolution7/static/js/main.0cb2bd19.js",
+    "main.js": "/devolution7/static/js/main.a86641b6.js",
     "static/media/small logo-no-bg.png": "/devolution7/static/media/small logo-no-bg.ddb163cacfb78f47e53e.png",
     "index.html": "/devolution7/index.html",
     "main.e82397ac.css.map": "/devolution7/static/css/main.e82397ac.css.map",
-    "main.0cb2bd19.js.map": "/devolution7/static/js/main.0cb2bd19.js.map"
+    "main.a86641b6.js.map": "/devolution7/static/js/main.a86641b6.js.map"
   },
   "entrypoints": [
     "static/css/main.e82397ac.css",
-    "static/js/main.0cb2bd19.js"
+    "static/js/main.a86641b6.js"
   ]
 }
