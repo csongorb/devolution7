@@ -36,5 +36,6 @@ jobs:
         npm run deploy
       env:
         user_name: 'github-actions[bot]'
+        user_email: 'csongorb@gmail.com'
         github_token: ${{ secrets.Devolution_Token }}
         repository: ${{ github.repository }}
