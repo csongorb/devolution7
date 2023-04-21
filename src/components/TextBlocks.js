@@ -7,7 +7,7 @@ function TextBlocks() {
     <div className='text-block-container'>
     <div className="text-block">
       <h1>
-        Devolution #6
+        Devolution #7
       </h1>
 
       <p>
@@ -93,7 +93,7 @@ become broader than new vessels.
         <LeafletMap/>
     </div>
     </div>
-    
+
   )
 }
 
