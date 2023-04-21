@@ -27,6 +27,9 @@ jobs:
 
     - name: Build
       run: npm run build
+    
+    - name: Setup User
+      uses: fregante/setup-git-user@v2
       
     - name: Deploy
       run: |
