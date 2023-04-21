@@ -2,14 +2,14 @@ import React from 'react'
 import { Button } from './Button'
 import "./Footer.css"
 import { Link } from 'react-router-dom'
-
+import logo from "../../src/assets/small logo-no-bg.png"
 function Footer() {
   return (
     <div className='footer-container'>
         
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>              
-            <img src={process.env.PUBLIC_URL + 'small logo-no-bg.png'} alt="devolution logo"/>
+            <img src={logo} alt="devolution logo"/>
             </Link>
           </div>
           <small class='website-rights'>DEVOLUTION © 2023</small>

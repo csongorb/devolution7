@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from "react-router-dom"
 import './Navbar.css';
-import { Button } from './Button';
+import logo from "../../src/assets/small logo-no-bg.png"
+
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -31,7 +32,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div class="navbar-logo">
-                    <img src={process.env.PUBLIC_URL + 'small logo-no-bg.png'} alt="devolution logo"/>
+                    <img src={logo} alt="devolution logo"/>
                 </div> 
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} /> 
