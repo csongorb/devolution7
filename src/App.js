@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
+      <Route path='/devolution7' element={<Home />} />
+      <Route path='/devolution7/about' element={<About />} />
       </Routes>
     </Router>      
     </>
