@@ -13,7 +13,7 @@ import image6 from "../../src/assets/images/lmd_6.jpg"
 function Cards() {
   return (
     <div className='cards'>
-        <h1>check out these cards!</h1>
+        <h1>Download versions</h1>
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
@@ -29,9 +29,6 @@ function Cards() {
                     label="Version"
                     path="/wip-page"
                     />
-                </ul> 
-                
-                <ul className='cards__items'>
                     <CardItem 
                     src={image3}
                     text="Version 3"
@@ -49,9 +46,7 @@ function Cards() {
                     text="Version 5"
                     label="Version"
                     path="/wip-page"
-                    />
-                </ul>
-                <ul className='cards__items'>               
+                    />           
                     <CardItem 
                     src={image6}
                     text="Version 6"
