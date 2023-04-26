@@ -24,10 +24,10 @@ jobs:
         
     - name: Cache dependencies
       uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: npm-${{ hashFiles('package-lock.json') }}
-          restore-keys: npm-
+      with:
+        path: ~/.npm
+        key: npm-${{ hashFiles('package-lock.json') }}
+        restore-keys: npm-
 
     - name: Build
       run: npm run build
