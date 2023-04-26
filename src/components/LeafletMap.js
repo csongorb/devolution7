@@ -14,7 +14,7 @@ function LeafletMap ()
                     <TileLayer 
                         noWrap={true}
                         name="Test"
-                        url="http://localhost:8000/CustomTiles/{z}/{x}/{y}.png"
+                        url="https://raw.githubusercontent.com/csongorb/devolution7/master/src/components/CustomTiles/{z}/{x}/{y}.png"
 />
             </MapContainer>
         </div>
