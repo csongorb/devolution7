@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapContainer, TileLayer, Marker, Popup, Rectangle, Map, ImageOverlay } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Rectangle, ImageOverlay } from 'react-leaflet'
 
 
 function LeafletMap ()
@@ -17,7 +17,7 @@ function LeafletMap ()
               <Marker position={center}>
                 <Popup>
                 Link<br />
-                <a target="_blank" href="https://devolution.online/">here</a>
+                <a target="_blank" rel="noreferrer" href="https://devolution.online/">here</a>
                 </Popup>
               </Marker>
 
