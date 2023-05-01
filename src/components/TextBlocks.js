@@ -55,7 +55,7 @@ function TextBlocks() {
       <h2>
       Exhibition Tours
       </h2>
-      For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the Guided tours through the exhibition held by the developers themselves, complementing the exhibited versions with background information, secrets and anecdotes.
+      For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the guided tours through the exhibition held by the developers themselves, complementing the exhibited versions with background information, <br /> secrets and anecdotes.
       <br /> <br /> 
       <h3>
       Schedule:
@@ -76,7 +76,7 @@ function TextBlocks() {
         Total Digital
       </h1>
       <p>
-      The online exhibition showcasing the development process of Lonely Mountains: Downhill is available for permanent viewing, offering visitors an opportunity to explore an interactive timeline of the game's evolution and downloadable and playable early prototypes and in-between versions of the game.
+        The online exhibition showcasing the development process of Lonely Mountains: Downhill is available for permanent viewing, offering visitors an opportunity to explore an interactive timeline of the game's evolution and downloadable and playable early prototypes and in-between versions of the game.
 The exhibition also works as an unique archive that lets the visitors discover new and inspiring aspects of how games are growing into shape.
 
       </p>
@@ -88,5 +88,6 @@ The exhibition also works as an unique archive that lets the visitors discover n
 
   )
 }
+
 
 export default TextBlocks
