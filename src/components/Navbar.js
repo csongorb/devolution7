@@ -31,7 +31,7 @@ function Navbar() {
     <>
         <nav className="navbar">
             <div className="navbar-container">
-                <div class="navbar-logo">
+                <div className="navbar-logo">
                     <img src={logo} alt="devolution logo"/>
                 </div> 
                 <div className='menu-icon' onClick={handleClick}>
