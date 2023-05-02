@@ -65,7 +65,7 @@ function TextBlocks() {
       Friday, 12th of May 2023, 14:00 - 15:00<br />  with Jan Bubenik
       <br /> <br /> 
       Saturday, 13th of May 2023, 14:00 - 15:00<br /> with Anna Bloser
-<br />
+      <br />
 
       </p>
 
@@ -76,9 +76,13 @@ function TextBlocks() {
         Total Digital
       </h1>
       <p>
-        The online exhibition showcasing the development process of Lonely Mountains: Downhill is available for permanent viewing, offering visitors an opportunity to explore an interactive timeline of the game's evolution and downloadable and playable early prototypes and in-between versions of the game.
-The exhibition also works as an unique archive that lets the visitors discover new and inspiring aspects of how games are growing into shape.
-
+      The online exhibition showcasing the development process of Lonely Mountains: Downhill is available for permanent viewing, offering visitors an opportunity to explore an interactive timeline of the game's evolution, downloadable and playable early prototypes and in-between versions of the game.
+      <br /> <br /> 
+      The exhibition works as a unique archive for…  <br /> 
+      - Researchers to discover new aspects of how games are growing into shape <br /> 
+      - Game designers and game developers interested to learn and be inspired <br /> 
+      - Tutors and lecturers searching for inspiring use cases to teach with <br /> 
+      - Just everybody interested in games to see and explore how they are developed
       </p>
     </div>
     <div className="map-block">
