@@ -1,4 +1,4 @@
-import { MapContainer, useMapEvents, Marker, Popup, TileLayer } from 'react-leaflet';
+import { MapContainer, useMapEvents, Marker, Popup, TileLayer, ImageOverlay  } from 'react-leaflet';
 import L from 'leaflet';
 
 
@@ -23,6 +23,10 @@ function LeafletMap() {
     crs.unproject(L.point(mapExtent[2], mapExtent[3])),
     crs.unproject(L.point(mapExtent[0], mapExtent[1]))
   ]
+//test bounds for imageOverlay
+  var southwest = L.latLng(80.36986904043088, -104.84527587890626); // example southwest coordinate
+  var northeast = L.latLng(80.90761572909896, -101.51092529296876); // example northeast coordinate
+  var overlayBounds = L.latLngBounds(southwest, northeast);
 
   const MapEvents = () => {
     useMapEvents({
@@ -61,6 +65,14 @@ function LeafletMap() {
         </Popup>
       </Marker>
 
+      <Marker position={[76.25564951145621, -76.1517333984375]}>
+        <Popup position={[76.25564951145621, -76.1517333984375]}>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/6O6V7L2IByg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Marker>
+
+      <ImageOverlay url={"https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image7.gif"} bounds={overlayBounds} opacity={1} zIndex={10000}/>
+
       <MapEvents />
     </MapContainer>
     </div>
@@ -68,3 +80,6 @@ function LeafletMap() {
 }
 
 export default LeafletMap;
+
+//test video link tag  <iframe width="300" height="169" src="https://www.youtube.com/embed/6O6V7L2IByg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
