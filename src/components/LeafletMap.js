@@ -53,19 +53,20 @@ function LeafletMap() {
       
       noWrap={true}
       tms={false}
-      url="https://raw.githubusercontent.com/csongorb/devolution7/master/src/components/CustomTiles/{z}/{x}/{y}.png"/>
-            
-      <Marker position={[85.04686205001023, -179.94781494140628]}>
-        <Popup position={[85.04686205001023, -179.94781494140628]}>
-          Poput at [85.04686205001023, -179.94781494140628] !
+      url="https://raw.githubusercontent.com/csongorb/devolution7/master/src/components/CustomTiles/{z}/{x}/{y}.png"/>            
+
+      <Marker position={constants.link_greenlight_trailer_position} icon={constants.videoIcon}>
+        <Popup position={constants.link_greenlight_trailer_position}>
+        <iframe width="300" height="169" src={constants.link_greenlight_trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Popup>
       </Marker>
 
-      <Marker position={[76.25564951145621, -76.1517333984375]}>
-        <Popup position={[76.25564951145621, -76.1517333984375]}>
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/6O6V7L2IByg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <Marker position={constants.link_megagon_industries_position} icon={constants.linkIcon}>
+        <Popup position={constants.link_megagon_industries_position}>
+          <a href={constants.link_megagon_industries}>Megagon Industries Website</a>
         </Popup>
       </Marker>
+      
 
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_8_URL} bounds={L.latLngBounds(constants.image_8_sw, constants.image_8_ne)} opacity={1}/>
