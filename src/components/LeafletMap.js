@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer } from 'react-leaflet';
+import { MapContainer, useMapEvents, MapEvents, Marker, Popup, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
 
 
@@ -19,6 +19,17 @@ function LeafletMap() {
     return Math.log(scale * mapMinResolution) / Math.LN2;
   };
 
+  const MapEvents = () => {
+    useMapEvents({
+      click(e) {
+        // setState your coords here
+        // coords exist in "e.latlng.lat" and "e.latlng.lng"
+        console.log(e.latlng.lat);
+        console.log(e.latlng.lng);
+      },
+    });
+    return false;
+}
 
   return (
     <div>
@@ -31,7 +42,8 @@ function LeafletMap() {
         crs.unproject(L.point(mapExtent[2], mapExtent[3])),
         crs.unproject(L.point(mapExtent[0], mapExtent[1]))
       ]}
-      style={{height: 700, width : "100%"}}>
+      style={{height: 700, width : "100%"}}
+      >
 
       <TileLayer
       minZoom={mapMinZoom}
@@ -40,7 +52,15 @@ function LeafletMap() {
       noWrap={true}
       tms={false}
       url="https://raw.githubusercontent.com/csongorb/devolution7/master/src/components/CustomTiles/{z}/{x}/{y}.png"/>
+            
+      <Marker position={[85.04686205001023, -179.94781494140628]}>
+        <Popup position={[85.04686205001023, -179.94781494140628]}>
+          Poput at [85.04686205001023, -179.94781494140628] !
+        </Popup>
+      </Marker>
 
+
+      <MapEvents />
     </MapContainer>
     </div>
   );
