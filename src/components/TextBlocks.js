@@ -36,36 +36,7 @@ function TextBlocks() {
 
     </div>
 
-    <div className="text-block">
-      <h1>
-      A MAZE. / Berlin 2023
-      </h1>
-
-      
-      The on-site exhibition focuses on the development process of Lonely Mountains: Downhill by displaying several in-between versions of the game, from early prototypes to later iterations. Visitors can explore the creative process behind the development, encountering new insights with each version they play and each comparison they make. 
-      <br /> <br /> 
-      Lonely Mountains: Downhill is a low-poly style mountain biking game developed by Berlin developer Megagon Industries. The game is a third-person biking game, where the player tries to connect with nature and complete courses on different mountains.
-      <br /> <br /> 
-      <h2>
-      Exhibition Tours
-      </h2>
-      For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the guided tours through the exhibition held by the developers themselves, complementing the exhibited versions with background information, <br /> secrets and anecdotes.
-      <br /> <br /> 
-
-      <h3>
-      Schedule:
-      </h3>
-
-      Thursday, 11th of May 2023, 14:00 - 15:00<br /> with Daniel Helbig
-      <br /> <br /> 
-      Friday, 12th of May 2023, 14:00 - 15:00<br />  with Jan Bubenik
-      <br /> <br /> 
-      Saturday, 13th of May 2023, 14:00 - 15:00<br /> with Anna Bloser
-      <br />
-
-      
-  
-    </div>
+    
     <div className="text-block">
     <h1>
       Total Digital
@@ -87,29 +58,7 @@ function TextBlocks() {
     <div className="text-block">
         <LeafletMap/>
     </div>
-    <div className="text-block">
-        
-    <h1>
-      Credits <br /> 
-    </h1>
-     
-      Almat Kabdolov: (Concept Art, Graphic Design) <br /> 
-      Anna Margrét Jónudóttir: (Exhibition Moderation, Timeline, Website) <br /> 
-      Christoph Maureder: (Tech Advising) <br /> 
-      Diana-Maria Niculescu: ( Exhibition Moderation, PR, Social Media) <br /> 
-      Eyal Peleg Harris: (Producer) <br /> 
-      Hanna Kołodziejczyk: (Graphic Design) <br /> 
-      Jan Teo Jia Xian: (Exhibition Director) <br /> 
-      Juan Osorio: (Timeline) <br /> 
-      Levent Cracea: (Exhibition, PR, Video Editing) <br /> 
-      Maria Shchurova: (Website) <br /> 
-      Mark Komives: (Graphic Design) <br /> 
-      Mascha Camino: (Advising) <br /> 
-      Nayan Bhat: (Devolution #6 Website Update) <br /> 
-      Pavlo Vasylevych: (Producer) <br /> 
-      Csongor Baranyai: (Creative Direction, Curation) <br /> 
-
-    </div>
+   
     </div>
 
     
