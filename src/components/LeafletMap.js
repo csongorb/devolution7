@@ -1,5 +1,5 @@
 import { MapContainer, useMapEvents, Rectangle, Circle, Popup, TileLayer, ImageOverlay  } from 'react-leaflet';
-import L from 'leaflet';
+import L, { LatLngBounds } from 'leaflet';
 import * as constants from './Constants';
 
 function LeafletMap() {
@@ -19,10 +19,11 @@ function LeafletMap() {
     return Math.log(scale * mapMinResolution) / Math.LN2;
   };
 
-  const bounds = [
-    crs.unproject(L.point(mapExtent[2], mapExtent[3])),
-    crs.unproject(L.point(mapExtent[0], mapExtent[1]))
-  ]
+  const bounds = new LatLngBounds(
+    [crs.unproject(L.point(mapExtent[2], mapExtent[3]))],
+    [crs.unproject(L.point(mapExtent[0], mapExtent[1]))]
+  )
+
 
   const MapEvents = () => {
     useMapEvents({
@@ -38,7 +39,7 @@ function LeafletMap() {
     <div>
       <MapContainer
       center={[62.59334083012024, -90.52734375]} //hardcoded here, but bounds.GetCenter() results in empty viewport
-      zoom={2}  
+      zoom={0}  
       minZoom={mapMinZoom}
       maxZoom={mapMaxZoom}
       bounds={bounds}
