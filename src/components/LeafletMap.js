@@ -43,6 +43,8 @@ function LeafletMap() {
       minZoom={mapMinZoom}
       maxZoom={mapMaxZoom}
       bounds={bounds}
+      maxBounds={constants.MAP_BOUNDS} 
+      maxBoundsViscosity={0.8}
       style={{height: 700, width : "100%"}} 
       >
 
@@ -104,6 +106,16 @@ function LeafletMap() {
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_8_URL} bounds={L.latLngBounds(constants.image_8_sw, constants.image_8_ne)} opacity={1}/>
       
+    
+      <Circle
+      center={bounds.getCenter()}
+      radius={9999999}
+      color="#FF0000"
+      stroke={true}
+      fillOpacity={0.5}
+      >
+      </Circle>
+
       <MapEvents />
     </MapContainer>
     </div>

@@ -1,4 +1,10 @@
-import L from 'leaflet';
+import L, { LatLngBounds } from 'leaflet';
+
+//actual map area bounds for defining the right center
+const MAP_SE = L.latLng(-33.70149279558436, -179.99443649732783);
+const MAP_NE = L.latLng(85.0511287798066, -13.013472788599131);
+const MAP_BOUNDS = new LatLngBounds([MAP_SE], [MAP_NE]);
+
 //link to the git file and bounds on the map for the respective gif
 //please follow the format and naming style
 const image_7_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image7.gif'; //path to raw file stored on github 
@@ -29,6 +35,8 @@ const igf_interview_URL = "https://www.gamedeveloper.com/disciplines/road-to-the
 const igf_interview_center = L.latLng(82.4198342344112, -62.930088148720806); 
 
 export {
+    MAP_BOUNDS,
+
     image_7_URL,
     image_7_sw,
     image_7_ne,
