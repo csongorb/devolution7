@@ -82,7 +82,7 @@ function TextBlocks() {
       </p>
       
     </div>
-    <div className="map-block">
+    <div className="text-block">
         <LeafletMap/>
     </div>
     </div>
