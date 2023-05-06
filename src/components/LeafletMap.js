@@ -58,7 +58,17 @@ function LeafletMap() {
         fillOpacity={0}
       >
         <Popup>
-          <a href={constants.megagon_industries_URL}>Megagon Industries Website</a>
+          <a href={constants.megagon_industries_URL } target="_blank" rel="noreferrer">Megagon Industries Website</a>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.greenlight_trailer_sw, constants.greenlight_trailer_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.greenlight_trailer_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Popup>
       </Rectangle>
 
@@ -68,7 +78,26 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.5}
       >
-        <Popup><a href={constants.kickstarter_interview_URL}>interview link</a></Popup>
+        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.kickstarter_interview_helbig_center}
+      radius={constants.circular_area_radius}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      
+      <Circle
+      center={constants.igf_interview_center}
+      radius={constants.circular_area_radius}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.igf_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
       
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
@@ -82,7 +111,6 @@ function LeafletMap() {
 
 export default LeafletMap;
 
-//video popup         <iframe width="300" height="169" src={constants.link_greenlight_trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 

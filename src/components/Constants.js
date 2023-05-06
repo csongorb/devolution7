@@ -15,14 +15,18 @@ const megagon_industries_sw = L.latLng(81.92858708067713, -49.641554257440355);
 const megagon_industries_ne = L.latLng(82.70354383450336, -42.88528433004333);
 
 const greenlight_trailer_URL = "https://www.youtube.com/embed/_-KESI3qIBg";
-const greenlight_trailer_sw =  L.latLng(69.23084132902646, -84.67437744140625); 
-const greenlight_trailer_ne =  L.latLng(69.23084132902646, -84.67437744140625); 
+const greenlight_trailer_sw =  L.latLng(68.82585011229355, -86.26998910745671); 
+const greenlight_trailer_ne =  L.latLng(69.63989262488842, -83.21607799565199); 
 
 //circular parameters for links with popups
 const circular_area_radius = 50000;
 
 const kickstarter_interview_URL = "https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview";
 const kickstarter_interview_bubenik_center = L.latLng(83.35696994817707, -74.20223862097612); 
+const kickstarter_interview_helbig_center = L.latLng(82.60875400198577, -83.36488354477183); 
+
+const igf_interview_URL = "https://www.gamedeveloper.com/disciplines/road-to-the-igf-megagon-industries-i-lonely-mountains-downhill-i-"
+const igf_interview_center = L.latLng(82.4198342344112, -62.930088148720806); 
 
 export {
     image_7_URL,
@@ -44,6 +48,9 @@ export {
     circular_area_radius,
 
     kickstarter_interview_URL,
-    kickstarter_interview_bubenik_center
+    kickstarter_interview_bubenik_center,
+    kickstarter_interview_helbig_center,
+    igf_interview_URL,
+    igf_interview_center
 
     };
