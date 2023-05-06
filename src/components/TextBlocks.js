@@ -81,11 +81,38 @@ function TextBlocks() {
       - Just everybody interested in games to see and explore how they are developed
       </p>
       
+
+      
     </div>
     <div className="text-block">
         <LeafletMap/>
     </div>
+    <div className="text-block">
+        
+    <h1>
+      Credits <br /> 
+    </h1>
+     
+      Almat Kabdolov: (Concept Art, Graphic Design) <br /> 
+      Anna Margrét Jónudóttir: (Exhibition Moderation, Timeline, Website) <br /> 
+      Christoph Maureder: (Tech Advising) <br /> 
+      Diana-Maria Niculescu: ( Exhibition Moderation, PR, Social Media) <br /> 
+      Eyal Peleg Harris: (Producer) <br /> 
+      Hanna Kołodziejczyk: (Graphic Design) <br /> 
+      Jan Teo Jia Xian: (Exhibition Director) <br /> 
+      Juan Osorio: (Timeline) <br /> 
+      Levent Cracea: (Exhibition, PR, Video Editing) <br /> 
+      Maria Shchurova: (Website) <br /> 
+      Mark Komives: (Graphic Design) <br /> 
+      Mascha Camino: (Advising) <br /> 
+      Nayan Bhat: (Devolution #6 Website Update) <br /> 
+      Pavlo Vasylevych: (Producer) <br /> 
+      Csongor Baranyai: (Creative Direction, Curation) <br /> 
+
     </div>
+    </div>
+
+    
 
   )
 }
