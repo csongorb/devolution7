@@ -1,4 +1,4 @@
-import { MapContainer, useMapEvents, Marker, Popup, TileLayer, ImageOverlay  } from 'react-leaflet';
+import { MapContainer, useMapEvents, Rectangle, Circle, Popup, TileLayer, ImageOverlay  } from 'react-leaflet';
 import L from 'leaflet';
 import * as constants from './Constants';
 
@@ -27,8 +27,6 @@ function LeafletMap() {
   const MapEvents = () => {
     useMapEvents({
       click(e) {
-        // setState your coords here
-        // coords exist in "e.latlng.lat" and "e.latlng.lng"
         console.log(e.latlng.lat);
         console.log(e.latlng.lng);
       },
@@ -49,28 +47,33 @@ function LeafletMap() {
 
       <TileLayer
       minZoom={mapMinZoom}
-      maxZoom={mapMaxZoom}
-      
+      maxZoom={mapMaxZoom}      
       noWrap={true}
       tms={false}
       url="https://raw.githubusercontent.com/csongorb/devolution7/master/src/components/CustomTiles/{z}/{x}/{y}.png"/>            
 
-      <Marker position={constants.link_greenlight_trailer_position} icon={constants.videoIcon}>
-        <Popup position={constants.link_greenlight_trailer_position}>
-        <iframe width="300" height="169" src={constants.link_greenlight_trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <Rectangle
+        bounds={[constants.megagon_industries_sw, constants.megagon_industries_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+          <a href={constants.megagon_industries_URL}>Megagon Industries Website</a>
         </Popup>
-      </Marker>
+      </Rectangle>
 
-      <Marker position={constants.link_megagon_industries_position} icon={constants.linkIcon}>
-        <Popup position={constants.link_megagon_industries_position}>
-          <a href={constants.link_megagon_industries}>Megagon Industries Website</a>
-        </Popup>
-      </Marker>
+      <Circle
+      center={constants.kickstarter_interview_bubenik_center}
+      radius={constants.circular_area_radius}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.kickstarter_interview_URL}>interview link</a></Popup>
+      </Circle>
       
-
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_8_URL} bounds={L.latLngBounds(constants.image_8_sw, constants.image_8_ne)} opacity={1}/>
-
+      
       <MapEvents />
     </MapContainer>
     </div>
@@ -78,5 +81,8 @@ function LeafletMap() {
 }
 
 export default LeafletMap;
+
+//video popup         <iframe width="300" height="169" src={constants.link_greenlight_trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
