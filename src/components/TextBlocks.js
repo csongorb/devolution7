@@ -61,9 +61,11 @@ function TextBlocks() {
       Downloadable Versions
       </h1>
       <strong>Disclaimer: </strong>
-      The versions of the game available are historic development versions and may not be fully functional, we cannot guarantee their compatibility with your device.
-      We provide them for research purposes only and without warranty or support. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.
-      The versions’ network features may be non-functional or limited. Please note that we have tested these versions to the best of our knowledge.
+      The versions of the game available here are historic development versions. We provide them for research purposes only and without warranty or support. They may not be fully functional, we cannot guarantee their compatibility with your device.
+      The versions’ network features may be non-functional or limited. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.
+      Please note that we have tested these versions to the best of our knowledge. <br />
+      <br />
+      To play the full version of the game visit...
 
     </div>
 
