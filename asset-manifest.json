@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/devolution7/static/css/main.0d77b72a.css",
-    "main.js": "/devolution7/static/js/main.a95dc257.js",
+    "main.css": "/devolution7/static/css/main.38629b0b.css",
+    "main.js": "/devolution7/static/js/main.96560db1.js",
     "static/media/lmd_1.jpg": "/devolution7/static/media/lmd_1.bff04b035832e9813687.jpg",
     "static/media/lmd_6.jpg": "/devolution7/static/media/lmd_6.3beb7b08cfca8fc8dc92.jpg",
     "static/media/lmd_2.jpg": "/devolution7/static/media/lmd_2.623ba776c5f9e9738b10.jpg",
@@ -10,11 +10,11 @@
     "static/media/lmd_5.jpg": "/devolution7/static/media/lmd_5.6ab70f76c8360d176cfa.jpg",
     "static/media/small logo-no-bg.png": "/devolution7/static/media/small logo-no-bg.ddb163cacfb78f47e53e.png",
     "index.html": "/devolution7/index.html",
-    "main.0d77b72a.css.map": "/devolution7/static/css/main.0d77b72a.css.map",
-    "main.a95dc257.js.map": "/devolution7/static/js/main.a95dc257.js.map"
+    "main.38629b0b.css.map": "/devolution7/static/css/main.38629b0b.css.map",
+    "main.96560db1.js.map": "/devolution7/static/js/main.96560db1.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d77b72a.css",
-    "static/js/main.a95dc257.js"
+    "static/css/main.38629b0b.css",
+    "static/js/main.96560db1.js"
   ]
 }
