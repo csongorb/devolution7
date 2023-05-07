@@ -1,6 +1,7 @@
 import React from 'react'
 import "./TextBlocks.css"
 import LeafletMap from './LeafletMap';
+import Cards from './Cards'
 
 function TextBlocks() {
   return (
@@ -59,8 +60,24 @@ function TextBlocks() {
       <h1>
       Downloadable Versions
       </h1>
+      <strong>Disclaimer: </strong>
+      The versions of the game available are historic development versions and may not be fully functional, we cannot guarantee their compatibility with your device.
+      We provide them for research purposes only and without warranty or support. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.
+      The versions’ network features may be non-functional or limited. Please note that we have tested these versions to the best of our knowledge.
+
+      1) 150716 Android 1 ("First Prototype")
+      2) 151019 Android 3 ("Polished Prototype")
+      3) 160122 Android 5 ("Controler Experimentation Mobile")
+      4) 160323 Prototype March16 ("Controler Experimentation PC")
+      5) 160629 Android 13 ("First Mountains & Transition Mobile")
+      6) 160816 (previously known as) Prototype Jule16 ("First Mountains & Transition PC")
+      7) 171118 BackerDemo v1 ("Backer Demo")
+      8) 180503 Dev-Access 0.1.4 ("New Terrain System / Growing Mountains")
+      9) 180910 Dev-Acces 0.1.7 ("Progression System & More Mountains")
+
     </div>
 
+    <Cards />
 
     <div className="text-block">
       <h1>
@@ -91,6 +108,27 @@ function TextBlocks() {
         </tr>
       </table>
 
+      </div>
+
+      <div className="text-block">
+      <h1>
+      Credits
+      </h1>
+      Almat Kabdolov: (Concept Art, Graphic Design) <br />
+      Anna Margrét Jónudóttir: (Exhibition Moderation, Timeline, Website) <br />
+      Christoph Maureder: (Tech Advising) <br />
+      Diana-Maria Niculescu: ( Exhibition Moderation, PR, Social Media) <br />
+      Eyal Peleg Harris: (Producer) <br />
+      Hanna Kołodziejczyk: (Graphic Design) <br />
+      Jan Teo Jia Xian: (Exhibition Director) <br />
+      Juan Osorio: (Timeline) <br />
+      Levent Cracea: (Exhibition, PR, Video Editing) <br />
+      Maria Shchurova: (Website) <br />
+      Mark Komives: (Graphic Design) <br />
+      Mascha Camino: (Advising) <br />
+      Nayan Bhat: (Devolution #6 Website Update) <br />
+      Pavlo Vasylevych: (Producer) <br />
+      Csongor Baranyai: (Creative Direction, Curation) <br />
       </div>
 
     </div>
