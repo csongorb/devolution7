@@ -15,14 +15,6 @@ function TextBlocks() {
       Each Devolution event / exhibition focuses on the evolution of a game through the exhibition of prototypes and interim versions and an in-depth conversation with the developers.
       <br /> <br />
 
-      <ul style={{listStyleType:"none"}}>
-        <li>
-        Devolution #7 - Lonely Mountains: Downhill is a cooperation between <a target="_blank" rel="noopener noreferrer" href="https://devolution.online/">Devolution</a>
-        , A MAZE. / Berlin 2023,
-          <a target="_blank" rel="noopener noreferrer" href="https://megagonindustries.com/"><br />Megagon Industries</a> and UE University of Europe for Applied Sciences.<br /> <br />
-        </li>
-      </ul>
-
       <h3>
       How to grow a game?
       </h3>
@@ -52,6 +44,14 @@ function TextBlocks() {
       </p>
 
     </div>
+
+    <div className="text-block">
+    <h1>
+      Lonely Mountains Downhill
+    </h1>
+    Lonely Mountains: Downhill is a low-poly style mountain biking game developed by Berlin developer Megagon Industries. The game is a third-person biking game, where the player tries to connect with nature and complete courses on different mountains.
+    </div>
+
     <div className="text-block">
         <LeafletMap/>
     </div>
@@ -65,16 +65,6 @@ function TextBlocks() {
       We provide them for research purposes only and without warranty or support. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.
       The versions’ network features may be non-functional or limited. Please note that we have tested these versions to the best of our knowledge.
 
-      1) 150716 Android 1 ("First Prototype")
-      2) 151019 Android 3 ("Polished Prototype")
-      3) 160122 Android 5 ("Controler Experimentation Mobile")
-      4) 160323 Prototype March16 ("Controler Experimentation PC")
-      5) 160629 Android 13 ("First Mountains & Transition Mobile")
-      6) 160816 (previously known as) Prototype Jule16 ("First Mountains & Transition PC")
-      7) 171118 BackerDemo v1 ("Backer Demo")
-      8) 180503 Dev-Access 0.1.4 ("New Terrain System / Growing Mountains")
-      9) 180910 Dev-Acces 0.1.7 ("Progression System & More Mountains")
-
     </div>
 
     <Cards />
@@ -84,8 +74,7 @@ function TextBlocks() {
       A MAZE. / Berlin 2023
       </h1>
       The on-site exhibition focuses on the development process of Lonely Mountains: Downhill by displaying several in-between versions of the game, from early prototypes to later iterations. Visitors can explore the creative process behind the development, encountering new insights with each version they play and each comparison they make.
-      <br /><br />
-      Lonely Mountains: Downhill is a low-poly style mountain biking game developed by Berlin developer Megagon Industries. The game is a third-person biking game, where the player tries to connect with nature and complete courses on different mountains.
+      <br />
       <table>
         <tr>
         <td vertical-align="top" width= "50%">
@@ -114,6 +103,17 @@ function TextBlocks() {
       <h1>
       Credits
       </h1>
+
+      <table>
+      <tr>
+
+      <td width= "50%" vertical-align="top">
+        Devolution #7 - Lonely Mountains: Downhill is a cooperation between <a target="_blank" rel="noopener noreferrer" href="https://devolution.online/">Devolution</a>
+        , A MAZE. / Berlin 2023, <a target="_blank" rel="noopener noreferrer" href="https://megagonindustries.com/"><br />Megagon Industries</a> and UE University of Europe for Applied Sciences.
+      </td>
+      <td>
+      <h3>Team</h3>
+
       Almat Kabdolov: (Concept Art, Graphic Design) <br />
       Anna Margrét Jónudóttir: (Exhibition Moderation, Timeline, Website) <br />
       Christoph Maureder: (Tech Advising) <br />
@@ -129,6 +129,14 @@ function TextBlocks() {
       Nayan Bhat: (Devolution #6 Website Update) <br />
       Pavlo Vasylevych: (Producer) <br />
       Csongor Baranyai: (Creative Direction, Curation) <br />
+
+      </td>
+
+      </tr>
+      </table>
+
+
+
       </div>
 
     </div>
