@@ -101,10 +101,10 @@ function TextBlocks() {
         <td width="49%">
         The exhibition works as a unique archive for…<br />
         <ul>
-          <li>Researchers to discover new aspects of how games are growing into shape</li>
-          <li>Game designers and game developers interested to learn and be inspired</li>
-          <li>Tutors and lecturers searching for inspiring use cases to teach with</li>
-          <li>Just everybody interested in games to see and explore how they are developed</li>
+          <li>Researchers to discover new aspects of how games are growing</li>
+          <li>Game designers & developers interested to learn and be inspired</li>
+          <li>Tutors and lecturers searching for inspiring use cases</li>
+          <li>Just everybody interested in games and game development</li>
         </ul>
         </td>
       </tr>
