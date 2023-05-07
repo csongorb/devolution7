@@ -6,39 +6,42 @@ function Footer() {
   return (
     <div className='footer-container'>
 
-          <div className='footer-logo'>
+          {/* <div className='footer-logo'>
             <Link to='/' className='social-logo'>
             <img src={logo} alt="devolution logo"/>
             </Link>
-          </div>
-          <small className='website-rights'>DEVOLUTION © 2023</small>
+          </div> */}
           <div className='social-icons'>
 
             <Link
-              className='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i className='fab fa-youtube' />
-            </Link>
-            <Link
               className='social-icon-link twitter'
-              to='/'
+              to='https://twitter.com/devolutionbln'
               target='_blank'
               aria-label='Twitter'
             >
               <i className='fab fa-twitter' />
             </Link>
             <Link
-              className='social-icon-link twitter'
-              to='/'
+              className='social-icon-link mastodon'
+              to='https://sunny.garden/@devolution'
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='Mastodon'
             >
-              <i className='fab fa-linkedin' />
+              <i className='fab fa-mastodon' />
             </Link>
+            <Link
+              className='social-icon-link youtube'
+              to='https://www.youtube.com/@devolution6462'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <i className='fab fa-youtube' />
+            </Link>
+
           </div>
+
+          <div className='website-rights'><a target="_blank" rel="noopener noreferrer" href="http://devolution.online/impressum/">Impressum</a> / <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/datenschutz/">Datenschutz</a></div>
+
         </div>
   )
 }

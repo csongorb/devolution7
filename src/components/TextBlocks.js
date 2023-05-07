@@ -44,15 +44,15 @@ function TextBlocks() {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://devolution.online/category/events/5summitexhibition/"
-                >Ape Out, Hidden Folks, Kingdom</a>, <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://devolution.online/6/"
-                >Baba Is You, Dicey Dungeons</a
-              >) and a summit (<a
+                >Ape Out, Hidden Folks, Kingdom</a>, ) and a summit (<a
                 href="https://devolution.online/gdasgardeningsummit/"
                 >Game Design as Gardening</a
-              >). Since 2020 turning
+              >). Since 2020 - with the exhibition of <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://devolution.online/6/"
+              >Baba Is You & Dicey Dungeons</a
+            > - turning into hybrid, or even: total digital.
           </td>
         </tr>
       </table>
@@ -113,35 +113,49 @@ function TextBlocks() {
     </div>
 
     <div className="text-block">
-    <h1>
-      Lonely Mountains Downhill
-    </h1>
-    <br />
-    Lonely Mountains: Downhill is a low-poly style mountain biking game developed by Berlin developer Megagon Industries. The game is a third-person biking game, where the player tries to connect with nature and complete courses on different mountains.
+      <h1>
+        The Evolution of Lonely Mountains: Downhill
+      </h1>
+      <br />
+      Lonely Mountains: Downhill is a low-poly style third-person mountain biking game, where the player tries to connect with nature and complete courses on different mountains.
+      The game was developed by Berlin developer studio Megagon Industries.<br />
+      <br />
+      <table>
+        <tr>
+        <td width="49%">
+          <iframe width="520" height="315" src="https://www.youtube.com/embed/sYr0hDZ3-QY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </td>
+        <td width="2%">
+        </td>
+        <td width="49%">
+          <iframe width="520" height="315" src="https://www.youtube.com/embed/eQ9P-ff85yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </td>
+        </tr>
+      </table>
     </div>
 
     <div className="text-block">
     <h1>
-      Timeline
+      Explore the Timeline!
     </h1>
       <br />
-      The timeline of the development process of Lonely Mountains: Downhill and other insights.<br />
+      The timeline of the development of Lonely Mountains: Downhill for deeper insights into the development process of the game. Explore and find interesting connections!<br />
       <br />
       <LeafletMap/>
     </div>
 
     <div className="text-block">
       <h1>
-      Downloadable Versions
+      Play the Versions!
       </h1>
       <br />
-      <strong>Disclaimer: </strong>
-      The versions of the game available here are historic development versions. We provide them for research purposes only and without warranty or support. They may not be fully functional, we cannot guarantee their compatibility with your device.
-      The versions’ network features may be non-functional or limited. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.
-      Please note that we have tested these versions to the best of our knowledge. <br />
+      Downloadable early prototypes and in-between versions of Lonely Mountains: Downhill. Play, observe and compare for inspiring insights!<br />
+      To play the newest version of the game visit <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">lonelymountains.com</a>.<br />
       <br />
-      To play the full version of the game visit...
-
+      <p><small><strong>Disclaimer: </strong><br />
+      The versions of the game available here are historic development versions. We provide them for research purposes only and without warranty or support. They may not be fully functional, we cannot guarantee their compatibility with your device.
+      The versions’ network features may be non-functional or limited. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.<br />
+      Please note that we have tested these versions to the best of our knowledge.</small></p>
     </div>
 
     <Cards />
@@ -151,7 +165,9 @@ function TextBlocks() {
       A MAZE. / Berlin 2023
       </h1>
       <br />
-      The on-site exhibition focuses on the development process of Lonely Mountains: Downhill by displaying several in-between versions of the game, from early prototypes to later iterations. Visitors can explore the creative process behind the development, encountering new insights with each version they play and each comparison they make.
+      The <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/schedule/">on-site exhibition</a> focuses on the development process of Lonely Mountains: Downhill by displaying several in-between versions of the game,
+      from early prototypes to later iterations. Visitors can explore the creative process behind the development,
+      encountering new insights with each version they play and each comparison they make.<br />
       <br />
       <table>
         <tr>
@@ -159,7 +175,8 @@ function TextBlocks() {
           <h2>
           Exhibition Tours
           </h2>
-          For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the guided tours through the exhibition held by the developers themselves, complementing the exhibited versions with background information, secrets and anecdotes.
+          <br />
+          For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/schedule/">guided tours</a> through the exhibition held by the developers themselves, complementing the exhibited versions with background information, secrets and anecdotes.
         </td>
         <td width="2%">
         </td>
@@ -167,6 +184,7 @@ function TextBlocks() {
           <h3>
           Schedule
           </h3>
+          <br />
           Thursday, 11th of May 2023, 14:00 - 15:00<br /> with Daniel Helbig
           <br /> <br />
           Friday, 12th of May 2023, 14:00 - 15:00<br />  with Jan Bubenik
