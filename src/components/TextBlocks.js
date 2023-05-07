@@ -52,7 +52,7 @@ function TextBlocks() {
               >) and a summit (<a
                 href="https://devolution.online/gdasgardeningsummit/"
                 >Game Design as Gardening</a
-              >).
+              >). Since 2020 turning
           </td>
         </tr>
       </table>
@@ -61,31 +61,54 @@ function TextBlocks() {
       Each Devolution event / exhibition focuses on the evolution of a game through the exhibition of prototypes and interim versions and an in-depth conversation with the developers.<br />
       <br />
 
-      <h3>
+      <h3 align="center">
       How to grow a game?
       </h3>
 
-      <p style={{ fontStyle: 'italic' }}>
-      “Games develop in a way that I can only describe as organic, in that they tend to start as a core and then grow outward.” <br />
-      -David Oreilly (Everything, Mountain)
-      </p>
+      <br />
+
+      <table>
+      <tr>
+        <td width="30%">
+        </td>
+        <td width="40%">
+        <p style={{ fontStyle: 'italic' }}>
+        “Games develop in a way that I can only describe as organic, in that they tend to start as a core and then grow outward.”</p>
+        <p align="right">- David Oreilly (Everything, Mountain)</p>
+        </td>
+        <td width="30%">
+        </td>
+      </tr>
+      </table>
+
+
 
     </div>
 
     <div className="text-block">
-    <h1>
+      <h1>
       Total Digital
-    </h1>
+      </h1>
       <br />
-      The online exhibition showcasing the development process of Lonely Mountains: Downhill is available for permanent viewing, offering visitors an opportunity to explore an interactive timeline of the game's evolution, downloadable and playable early prototypes and in-between versions of the game.<br />
-      <br />
-      The exhibition works as a unique archive for…  <br />
-      <ul>
-        <li>Researchers to discover new aspects of how games are growing into shape</li>
-        <li>Game designers and game developers interested to learn and be inspired</li>
-        <li>Tutors and lecturers searching for inspiring use cases to teach with</li>
-        <li>Just everybody interested in games to see and explore how they are developed</li>
-      </ul>
+
+      <table>
+      <tr>
+        <td width="49%">
+        The online exhibition showcasing the development process of Lonely Mountains: Downhill is available for permanent viewing, offering visitors an opportunity to explore an interactive timeline of the game's evolution, downloadable and playable early prototypes and in-between versions of the game.
+        </td>
+        <td width="2%">
+        </td>
+        <td width="49%">
+        The exhibition works as a unique archive for…<br />
+        <ul>
+          <li>Researchers to discover new aspects of how games are growing into shape</li>
+          <li>Game designers and game developers interested to learn and be inspired</li>
+          <li>Tutors and lecturers searching for inspiring use cases to teach with</li>
+          <li>Just everybody interested in games to see and explore how they are developed</li>
+        </ul>
+        </td>
+      </tr>
+      </table>
 
     </div>
 
@@ -175,22 +198,23 @@ function TextBlocks() {
       </td>
       <td width= "64%">
       <h3>Team</h3>
-      <br />
-      Almat Kabdolov: (Concept Art, Graphic Design) <br />
-      Anna Margrét Jónudóttir: (Exhibition Moderation, Timeline, Website) <br />
-      Christoph Maureder: (Tech Advising) <br />
-      Diana-Maria Niculescu: ( Exhibition Moderation, PR, Social Media) <br />
-      Eyal Peleg Harris: (Producer) <br />
-      Hanna Kołodziejczyk: (Graphic Design) <br />
-      Jan Teo Jia Xian: (Exhibition Director) <br />
-      Juan Osorio: (Timeline) <br />
-      Levent Cracea: (Exhibition, PR, Video Editing) <br />
-      Maria Shchurova: (Website) <br />
-      Mark Komives: (Graphic Design) <br />
-      Mascha Camino: (Advising) <br />
-      Nayan Bhat: (Devolution #6 Website Update) <br />
-      Pavlo Vasylevych: (Producer) <br />
-      Csongor Baranyai: (Creative Direction, Curation) <br />
+      <ul>
+        <li>Almat Kabdolov: (Concept Art, Graphic Design)</li>
+        <li>Anna Margrét Jónudóttir: (Exhibition Moderation, Timeline, Website)</li>
+        <li>Christoph Maureder: (Tech Advising)</li>
+        <li>Diana-Maria Niculescu: ( Exhibition Moderation, PR, Social Media)</li>
+        <li>Eyal Peleg Harris: (Producer)</li>
+        <li>Hanna Kołodziejczyk: (Graphic Design)</li>
+        <li>Jan Teo Jia Xian: (Exhibition Director)</li>
+        <li>Juan Osorio: (Timeline)</li>
+        <li>Levent Cracea: (Exhibition, PR, Video Editing)</li>
+        <li>Maria Shchurova: (Website)</li>
+        <li>Mark Komives: (Graphic Design)</li>
+        <li>Mascha Camino: (Advising)</li>
+        <li>Nayan Bhat: (Devolution #6 Website Update)</li>
+        <li>Pavlo Vasylevych: (Producer)</li>
+        <li>Csongor Baranyai: (Creative Direction, Curation)</li>
+      </ul>
 
       </td>
 

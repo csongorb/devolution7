@@ -4,6 +4,10 @@
     text-align: justify;
   }
 
+  ul {
+    padding: 20px;
+  }
+
   .text-block-container{
     display: grid;
     align-items: center;
