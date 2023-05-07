@@ -1,16 +1,10 @@
 import React from 'react'
 import "./Footer.css"
 import { Link } from 'react-router-dom'
-{/* import logo from "../../src/assets/small logo-no-bg.png" */}
 function Footer() {
   return (
     <div className='footer-container'>
 
-          {/* <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-            <img src={logo} alt="devolution logo"/>
-            </Link>
-          </div> */}
           <div className='social-icons'>
 
             <Link
