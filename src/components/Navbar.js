@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from "react-router-dom"
 import './Navbar.css';
-import logo from "../../src/assets/small logo-no-bg.png"
+import logo from "../../src/assets/Logo_Devolution_small.png"
 
 
 function Navbar() {
@@ -33,9 +33,9 @@ function Navbar() {
             <div className="navbar-container">
                 <div className="navbar-logo">
                     <img src={logo} alt="devolution logo"/>
-                </div> 
+                </div>
                 <div className='menu-icon' onClick={handleClick}>
-                    <i className={click ? "fas fa-times" : "fas fa-bars"} /> 
+                    <i className={click ? "fas fa-times" : "fas fa-bars"} />
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>

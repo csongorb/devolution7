@@ -3,12 +3,15 @@ import CardItem from './CardItem'
 import "./Card.css"
 
 //todo deal with images better
-import image1 from "../../src/assets/images/lmd_1.jpg"
-import image2 from "../../src/assets/images/lmd_2.jpg"
-import image3 from "../../src/assets/images/lmd_3.jpg"
-import image4 from "../../src/assets/images/lmd_4.jpg"
-import image5 from "../../src/assets/images/lmd_5.jpg"
-import image6 from "../../src/assets/images/lmd_6.jpg"
+import android1 from "../../src/assets/images/versions/android_001.png"
+import android2 from "../../src/assets/images/versions/android_003.jpg"
+import android3 from "../../src/assets/images/versions/android_005.png"
+import android4 from "../../src/assets/images/versions/android_013.png"
+import version5 from "../../src/assets/images/versions/protoMarch16.png"
+import version6 from "../../src/assets/images/versions/protoAugust16.png"
+import version7 from "../../src/assets/images/versions/backerdemo.jpg"
+import version8 from "../../src/assets/images/versions/version_1_1_4.jpg"
+import version9 from "../../src/assets/images/versions/version_1_1_7.jpg"
 
 function Cards() {
   return (
@@ -18,25 +21,25 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem
-                    src={image1}
+                    src={android1}
                     text="Android 1: First Prototype"
                     label="July 16th 2015"
                     path="/wip-page"
                     />
                     <CardItem
-                    src={image2}
+                    src={android2}
                     text="Android 3: Polished Prototype"
                     label="October 19th 2015"
                     path="/wip-page"
                     />
                     <CardItem
-                    src={image2}
+                    src={android3}
                     text="Android 5: Controler Experimentation Mobile"
                     label="January 22nd 2016"
                     path="/wip-page"
                     />
                     <CardItem
-                    src={image2}
+                    src={android4}
                     text="Android 13: First Mountains & Transition To PC"
                     label="June 29th 2016"
                     path="/wip-page"
@@ -45,31 +48,31 @@ function Cards() {
 
                   <ul className='cards__items'>
                     <CardItem
-                    src={image3}
+                    src={version5}
                     text="Prototype March16: Controler Experimentation PC"
                     label="March 23rd 2016"
                     path="/wip-page"
                     />
                     <CardItem
-                    src={image4}
+                    src={version6}
                     text="Prototype August16: First Mountains & Transition PC"
                     label="August 16th 2016"
                     path="/wip-page"
                     />
                     <CardItem
-                    src={image5}
+                    src={version7}
                     text="Backer Demo 1.0"
                     label="November 18th 2017"
                     path="/wip-page"
                     />
                     <CardItem
-                    src={image6}
+                    src={version8}
                     text="Dev-Access 0.1.4: New Terrain System / Growing Mountains"
                     label="May 3rd 2018"
                     path="/wip-page"
                     />
                     <CardItem
-                    src={image6}
+                    src={version9}
                     text="Dev-Acces 0.1.7: Progression System & More Mountains"
                     label="September 10th 2018"
                     path="/wip-page"
