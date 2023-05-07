@@ -19,58 +19,62 @@ function Cards() {
                 <ul className='cards__items'>
                     <CardItem
                     src={image1}
-                    text="First Prototype"
-                    label="Android 1"
+                    text="Android 1: First Prototype"
+                    label="July 16th 2015"
                     path="/wip-page"
                     />
                     <CardItem
                     src={image2}
-                    text="Version 2"
-                    label="Version"
+                    text="Android 3: Polished Prototype"
+                    label="October 19th 2015"
                     path="/wip-page"
                     />
                     <CardItem
+                    src={image2}
+                    text="Android 5: Controler Experimentation Mobile"
+                    label="January 22nd 2016"
+                    path="/wip-page"
+                    />
+                    <CardItem
+                    src={image2}
+                    text="Android 13: First Mountains & Transition To PC"
+                    label="June 29th 2016"
+                    path="/wip-page"
+                    />
+                  </ul>
+
+                  <ul className='cards__items'>
+                    <CardItem
                     src={image3}
-                    text="Version 3"
-                    label="Version"
+                    text="Prototype March16: Controler Experimentation PC"
+                    label="March 23rd 2016"
                     path="/wip-page"
                     />
                     <CardItem
                     src={image4}
-                    text="Version 4"
-                    label="Version"
+                    text="Prototype August16: First Mountains & Transition PC"
+                    label="August 16th 2016"
                     path="/wip-page"
                     />
                     <CardItem
                     src={image5}
-                    text="Version 5"
-                    label="Version"
+                    text="Backer Demo 1.0"
+                    label="November 18th 2017"
                     path="/wip-page"
                     />
                     <CardItem
                     src={image6}
-                    text="Version 6"
-                    label="Version"
+                    text="Dev-Access 0.1.4: New Terrain System / Growing Mountains"
+                    label="May 3rd 2018"
+                    path="/wip-page"
+                    />
+                    <CardItem
+                    src={image6}
+                    text="Dev-Acces 0.1.7: Progression System & More Mountains"
+                    label="September 10th 2018"
                     path="/wip-page"
                     />
                 </ul>
-
-
-
-1) 150716 Android 1 ("First Prototype")
-2) 151019 Android 3 ("Polished Prototype")
-3) 160122 Android 5 ("Controler Experimentation Mobile")
-4) 160323 Prototype March16 ("Controler Experimentation PC")
-5) 160629 Android 13 ("First Mountains & Transition Mobile")
-6) 160816 (previously known as) Prototype Jule16 ("First Mountains & Transition PC")
-7) 171118 BackerDemo v1 ("Backer Demo")
-8) 180503 Dev-Access 0.1.4 ("New Terrain System / Growing Mountains")
-9) 180910 Dev-Acces 0.1.7 ("Progression System & More Mountains")
-
-
-                
-
-
 
                 </div>
               </div>
