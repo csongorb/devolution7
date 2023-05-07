@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/devolution7/static/css/main.17a02aba.css",
-    "main.js": "/devolution7/static/js/main.6dae1b6a.js",
-    "static/media/lmd_1.jpg": "/devolution7/static/media/lmd_1.bff04b035832e9813687.jpg",
-    "static/media/lmd_6.jpg": "/devolution7/static/media/lmd_6.3beb7b08cfca8fc8dc92.jpg",
-    "static/media/lmd_2.jpg": "/devolution7/static/media/lmd_2.623ba776c5f9e9738b10.jpg",
-    "static/media/lmd_3.jpg": "/devolution7/static/media/lmd_3.4b1f3120022b8b6f1e06.jpg",
-    "static/media/lmd_4.jpg": "/devolution7/static/media/lmd_4.e787ecc1f0dcfe7e2647.jpg",
-    "static/media/lmd_5.jpg": "/devolution7/static/media/lmd_5.6ab70f76c8360d176cfa.jpg",
-    "static/media/small logo-no-bg.png": "/devolution7/static/media/small logo-no-bg.ddb163cacfb78f47e53e.png",
+    "main.css": "/devolution7/static/css/main.766efab8.css",
+    "main.js": "/devolution7/static/js/main.01bf622f.js",
+    "static/media/android_001.png": "/devolution7/static/media/android_001.ce3766bc15f3f4dd6912.png",
+    "static/media/android_005.png": "/devolution7/static/media/android_005.2b18f08c2d7374cab740.png",
+    "static/media/protoMarch16.png": "/devolution7/static/media/protoMarch16.b6e5bc6311138bcb24ab.png",
+    "static/media/protoAugust16.png": "/devolution7/static/media/protoAugust16.90136576651bb86f1dd6.png",
+    "static/media/android_013.png": "/devolution7/static/media/android_013.d713e9c80878fb64cdf5.png",
+    "static/media/version_1_1_7.jpg": "/devolution7/static/media/version_1_1_7.b6cf4b9d4994745a8ebe.jpg",
+    "static/media/version_1_1_4.jpg": "/devolution7/static/media/version_1_1_4.57b56beb6b9959e6eddd.jpg",
+    "static/media/backerdemo.jpg": "/devolution7/static/media/backerdemo.2ae23fb9fcde22e07586.jpg",
+    "static/media/android_003.jpg": "/devolution7/static/media/android_003.2c83238099030db4a8da.jpg",
+    "static/media/Logo_Devolution_small.png": "/devolution7/static/media/Logo_Devolution_small.6898f54892c210ccbd92.png",
     "index.html": "/devolution7/index.html",
-    "main.17a02aba.css.map": "/devolution7/static/css/main.17a02aba.css.map",
-    "main.6dae1b6a.js.map": "/devolution7/static/js/main.6dae1b6a.js.map"
+    "main.766efab8.css.map": "/devolution7/static/css/main.766efab8.css.map",
+    "main.01bf622f.js.map": "/devolution7/static/js/main.01bf622f.js.map"
   },
   "entrypoints": [
-    "static/css/main.17a02aba.css",
-    "static/js/main.6dae1b6a.js"
+    "static/css/main.766efab8.css",
+    "static/js/main.01bf622f.js"
   ]
 }
