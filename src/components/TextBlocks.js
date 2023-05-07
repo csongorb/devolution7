@@ -81,7 +81,7 @@ function TextBlocks() {
           <h2>
           Exhibition Tours
           </h2>
-          For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the guided tours through the exhibition held by the developers themselves, complementing the exhibited versions with background information, secrets and anecdotes.<br /><br /> <br />
+          For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the guided tours through the exhibition held by the developers themselves, complementing the exhibited versions with background information, secrets and anecdotes.
         </td>
 
         <td vertical-align="top">

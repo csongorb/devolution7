@@ -38,22 +38,23 @@ function LeafletMap() {
   return (
     <div>
       <MapContainer
-      center={[62.59334083012024, -90.52734375]} //hardcoded here, but bounds.GetCenter() results in empty viewport
-      zoom={0}  
+      center={[72.59334083012024, -90.52734375]} //hardcoded here, but bounds.GetCenter() results in empty viewport
+      zoom={0}
       minZoom={mapMinZoom}
       maxZoom={mapMaxZoom}
+      scrollWheelZoom={false}
       bounds={bounds}
-      maxBounds={constants.MAP_BOUNDS} 
+      maxBounds={constants.MAP_BOUNDS}
       maxBoundsViscosity={0.8}
-      style={{height: 700, width : "100%"}} 
+      style={{height: 400, width : "100%"}}
       >
 
       <TileLayer
       minZoom={mapMinZoom}
-      maxZoom={mapMaxZoom}      
+      maxZoom={mapMaxZoom}
       noWrap={true}
       tms={false}
-      url="https://raw.githubusercontent.com/csongorb/devolution7/master/src/components/CustomTiles/{z}/{x}/{y}.png"/>            
+      url="https://raw.githubusercontent.com/csongorb/devolution7/master/src/components/CustomTiles/{z}/{x}/{y}.png"/>
 
       <Rectangle
         bounds={[constants.megagon_industries_sw, constants.megagon_industries_ne]}
@@ -93,7 +94,7 @@ function LeafletMap() {
         <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
 
-      
+
       <Circle
       center={constants.igf_interview_center}
       radius={constants.circular_area_radius}
@@ -102,11 +103,11 @@ function LeafletMap() {
       >
         <Popup><a href={constants.igf_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
-      
+
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_8_URL} bounds={L.latLngBounds(constants.image_8_sw, constants.image_8_ne)} opacity={1}/>
-      
-    
+
+
       <Circle
       center={bounds.getCenter()}
       radius={9999999}
@@ -123,7 +124,3 @@ function LeafletMap() {
 }
 
 export default LeafletMap;
-
-
-
-
