@@ -175,8 +175,8 @@ function TextBlocks() {
       <table className="versions">
         <tr>
         <td width="20%">
-          <h3>adsf</h3>
-          asdf<br />
+          <h3>Android 001</h3>
+          July 16th 2015<br />
            <img src={android1} width="150" height="150" alt="Andoid_001"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
@@ -185,9 +185,9 @@ function TextBlocks() {
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
         </td>
         <td width="20%">
-          <h3>adsf</h3>
-          adsf<br />
-           <img src={android2} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Android 003</h3>
+          October 19th 2015<br />
+           <img src={android2} width="150" height="150" alt="Andoid_003"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
             <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
@@ -195,9 +195,9 @@ function TextBlocks() {
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
         </td>
         <td width="20%">
-          <h3>adsf</h3>
-          asdfa<br />
-           <img src={android3} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Android 005</h3>
+          January 22nd 2016<br />
+           <img src={android3} width="150" height="150" alt="Andoid_005"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
             <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
@@ -205,9 +205,9 @@ function TextBlocks() {
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
         </td>
         <td width="20%">
-          <h3>adsf</h3>
-          asdfasd<br />
-           <img src={android4} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Android 013</h3>
+          June 29th 2016<br />
+           <img src={android4} width="150" height="150" alt="Andoid_013"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
             <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
@@ -223,9 +223,9 @@ function TextBlocks() {
         </tr>
         <tr>
         <td width="20%">
-          <h3>adsf</h3>
-          asdf<br />
-           <img src={version5} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Proto March 16</h3>
+          March 23rd 2016<br />
+           <img src={version5} width="150" height="150" alt="Proto March 16"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
             <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
@@ -236,9 +236,9 @@ function TextBlocks() {
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
         </td>
         <td width="20%">
-          <h3>adsf</h3>
-          adsf<br />
-           <img src={version6} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Proto August 16</h3>
+          August 16th 2016<br />
+           <img src={version6} width="150" height="150" alt="Proto August 16"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
             <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
@@ -249,9 +249,9 @@ function TextBlocks() {
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
         </td>
         <td width="20%">
-          <h3>adsf</h3>
-          asdfa<br />
-           <img src={version7} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Backer Demo</h3>
+          November 18th 2017<br />
+           <img src={version7} width="150" height="150" alt="Backer Demo"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
             <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
@@ -262,9 +262,9 @@ function TextBlocks() {
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
         </td>
         <td width="20%">
-          <h3>adsf</h3>
-          asdfasd<br />
-           <img src={version8} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Dev Access 1.1.4</h3>
+          May 3rd 2018<br />
+           <img src={version8} width="150" height="150" alt="Dev Access 1.1.4"></img> <br />
            <br />
            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
             <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
@@ -275,9 +275,9 @@ function TextBlocks() {
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
         </td>
         <td width="20%">
-          <h3>adsf</h3>
-          asdf<br />
-          <img src={version9} width="150" height="150" alt="Andoid_001"></img> <br />
+          <h3>Dev Access 1.1.7</h3>
+          September 10th 2018<br />
+          <img src={version9} width="150" height="150" alt="Dev Access 1.1.7"></img> <br />
           <br />
           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
