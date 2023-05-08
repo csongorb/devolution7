@@ -348,21 +348,21 @@ function TextBlocks() {
       <td width= "64%">
       <h3>Team</h3>
       <ul>
-        <li>Almat Kabdolov: (Concept Art, Graphic Design)</li>
-        <li>Anna Margrét Jónudóttir: (Exhibition Moderation, Timeline, Website)</li>
-        <li>Christoph Maureder: (Tech Advising)</li>
-        <li>Diana-Maria Niculescu: ( Exhibition Moderation, PR, Social Media)</li>
-        <li>Eyal Peleg Harris: (Producer)</li>
-        <li>Hanna Kołodziejczyk: (Graphic Design)</li>
-        <li>Jan Teo Jia Xian: (Exhibition Director)</li>
-        <li>Juan Osorio: (Timeline)</li>
-        <li>Levent Cracea: (Exhibition, PR, Video Editing)</li>
-        <li>Maria Shchurova: (Website)</li>
-        <li>Mark Komives: (Graphic Design)</li>
-        <li>Mascha Camino: (Advising)</li>
-        <li>Nayan Bhat: (Devolution #6 Website Update)</li>
-        <li>Pavlo Vasylevych: (Producer)</li>
-        <li>Csongor Baranyai: (Creative Direction, Curation)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/al.085/">Almat Kabdolov</a> (Concept Art, Graphic Design)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anna-margret-jonudottir-912226274/">Anna Margrét Jónudóttir</a> (Exhibition Moderation, Timeline, Website)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/christoph-maureder-093088211/">Christoph Maureder</a> (Tech Advising)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rzldzl_/">Diana-Maria Niculescu</a> (Exhibition Moderation, PR, Social Media)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/eyal-peleg-harris-393ba6273/">Eyal Peleg Harris</a> (Producer)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/supersymetria/">Hanna Kołodziejczyk</a> (Graphic Design)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://janwatever.artstation.com/">Jan Teo Jia Xian</a> (Exhibition Director)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juan-camilo-osorio-arizabaleta-85a5621b0/">Juan Osorio</a> (Timeline)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cracea.levent/">Levent Cracea</a> (Exhibition, PR, Video Editing)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://maria-shchurova.github.io/">Maria Shchurova</a> (Website)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mark-komives-524951183/">Mark Komives</a> (Graphic Design)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/maschacamino">Mascha Camino</a> (Advising)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nayan_kira?s=20">Nayan Bhat</a> (Devolution #6 Website Update)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pavlo-vasylevych-969099243/">Pavlo Vasylevych</a> (Producer)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="http://csongorb.com/">Csongor Baranyai</a> (Creative Direction, Curation)</li>
       </ul>
 
       </td>
