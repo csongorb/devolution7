@@ -8,12 +8,16 @@ const MAP_BOUNDS = new LatLngBounds([MAP_SE], [MAP_NE]);
 //link to the git file and bounds on the map for the respective gif
 //please follow the format and naming style
 const image_7_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image7.gif'; //path to raw file stored on github 
-const image_7_sw = L.latLng(80.36986904043088, -104.84527587890626); //  southwest coordinate
-const image_7_ne = L.latLng(80.90761572909896, -101.51092529296876); //  northeast coordinate
+const image_7_sw = L.latLng(80.5359558187302, -103.98834228515626); //  southwest coordinate
+const image_7_ne = L.latLng(81.06962428671915, -100.64849853515625); //  northeast coordinate
 
 const image_8_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image8.gif'; //path to raw file stored on github 
-const image_8_sw = L.latLng(80.37078793327677, -101.29119873046876); //  southwest coordinate
-const image_8_ne = L.latLng(81.34146214129296, -97.8689581853035); //  northeast coordinate
+const image_8_sw = L.latLng(80.53956806928963, -100.45074462890626); //  southwest coordinate
+const image_8_ne = L.latLng(81.49579959657608, -97.00653076171876); //  northeast coordinate
+
+const image_9_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image9.gif'; //path to raw file stored on github 
+const image_9_sw = L.latLng(78.20689992375854, -101.25274658203126); //  southwest coordinate
+const image_9_ne = L.latLng(78.61515968121294, -98.18206787109376); //  northeast coordinate
 
 //boxes for links with popups
 const megagon_industries_URL = "https://megagonindustries.com/";
@@ -44,6 +48,10 @@ export {
     image_8_URL,
     image_8_sw,
     image_8_ne,
+
+    image_9_URL,
+    image_9_sw,
+    image_9_ne,
 
     megagon_industries_URL,
     megagon_industries_sw,
