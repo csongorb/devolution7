@@ -2,7 +2,7 @@
   table tr td {
     vertical-align: top;
     text-align: justify;
-  }
+  } 
 
   ul {
     padding: 20px;
@@ -21,7 +21,6 @@
 
   .text-block
   {
-
     padding: 2rem;
     max-width: 1120px;
     width: 100%;

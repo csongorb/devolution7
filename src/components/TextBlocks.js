@@ -3,6 +3,20 @@ import "./TextBlocks.css"
 import LeafletMap from './LeafletMap';
 import Cards from './Cards'
 
+import android1 from "../../src/assets/images/versions/android_001_small.png"
+import android2 from "../../src/assets/images/versions/android_003_small.jpg"
+import android3 from "../../src/assets/images/versions/android_005_small.png"
+import android4 from "../../src/assets/images/versions/android_013_small.png"
+import version5 from "../../src/assets/images/versions/protoMarch16_small.png"
+import version6 from "../../src/assets/images/versions/protoAugust16_small.png"
+import version7 from "../../src/assets/images/versions/backerdemo_small.jpg"
+import version8 from "../../src/assets/images/versions/version_1_1_4_small.jpg"
+import version9 from "../../src/assets/images/versions/version_1_1_7_small.jpg"
+
+import androidicon from "../../src/assets/images/platforms/androidicon.png"
+import winicon from "../../src/assets/images/platforms/winicon.png"
+import osxicon from "../../src/assets/images/platforms/osxicon.png"
+
 function TextBlocks() {
   return (
     <div className='text-block-container'>
@@ -156,6 +170,127 @@ function TextBlocks() {
       The versions of the game available here are historic development versions. We provide them for research purposes only and without warranty or support. They may not be fully functional, we cannot guarantee their compatibility with your device.
       The versions’ network features may be non-functional or limited. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.<br />
       Please note that we have tested these versions to the best of our knowledge.</small></p>
+      <br />
+      <div className="versions">
+      <table className="versions">
+        <tr>
+        <td width="20%">
+          <h3>adsf</h3>
+          asdf<br />
+           <img src={android1} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
+            </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+          <h3>adsf</h3>
+          adsf<br />
+           <img src={android2} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
+            </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+          <h3>adsf</h3>
+          asdfa<br />
+           <img src={android3} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
+            </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+          <h3>adsf</h3>
+          asdfasd<br />
+           <img src={android4} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
+            </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+        </td>
+        </tr>
+        <tr>
+          <br />
+          <br />
+        </tr>
+        <tr>
+        <td width="20%">
+          <h3>adsf</h3>
+          asdf<br />
+           <img src={version5} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+          <h3>adsf</h3>
+          adsf<br />
+           <img src={version6} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+          <h3>adsf</h3>
+          asdfa<br />
+           <img src={version7} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+          <h3>adsf</h3>
+          asdfasd<br />
+           <img src={version8} width="150" height="150" alt="Andoid_001"></img> <br />
+           <br />
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a><br />
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        <td width="20%">
+          <h3>adsf</h3>
+          asdf<br />
+          <img src={version9} width="150" height="150" alt="Andoid_001"></img> <br />
+          <br />
+          <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+           <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+           </a>
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+            </a><br />
+           <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+        </td>
+        </tr>
+      </table>
+      </div>
+
     </div>
 
     <Cards />
