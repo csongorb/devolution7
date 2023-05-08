@@ -303,9 +303,9 @@ function TextBlocks() {
       <table>
         <tr>
         <td width= "50%">
-          <h2>
+          <h3>
           Exhibition Tours
-          </h2>
+          </h3>
           <br />
           For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/schedule/">guided tours</a> through the exhibition held by the developers themselves, complementing the exhibited versions with background information, secrets and anecdotes.
         </td>
