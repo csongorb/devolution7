@@ -107,7 +107,10 @@ function LeafletMap() {
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_8_URL} bounds={L.latLngBounds(constants.image_8_sw, constants.image_8_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_9_URL} bounds={L.latLngBounds(constants.image_9_sw, constants.image_9_ne)} opacity={1}/>
-
+      <ImageOverlay url={constants.image_10_URL} bounds={L.latLngBounds(constants.image_10_sw, constants.image_10_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_17_URL} bounds={L.latLngBounds(constants.image_17_sw, constants.image_17_ne)} opacity={1}/>
+  
+  
 
       <Circle
       center={bounds.getCenter()}

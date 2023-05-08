@@ -19,6 +19,15 @@ const image_9_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/mast
 const image_9_sw = L.latLng(78.20689992375854, -101.25274658203126); //  southwest coordinate
 const image_9_ne = L.latLng(78.61515968121294, -98.18206787109376); //  northeast coordinate
 
+const image_10_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image10.gif'; //path to raw file stored on github 
+const image_10_sw = L.latLng(76.93341135810341, -105.03204345703126); //  southwest coordinate
+const image_10_ne = L.latLng(77.40185061073129, -101.26922607421876); //  northeast coordinate
+
+const image_17_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image17.gif'; //path to raw file stored on github 
+const image_17_sw = L.latLng(72.25779089910077, -85.63568115234376); //  southwest coordinate
+const image_17_ne = L.latLng(72.88458958868159, -82.62542724609376); //  northeast coordinate
+
+
 //boxes for links with popups
 const megagon_industries_URL = "https://megagonindustries.com/";
 const megagon_industries_sw = L.latLng(81.92858708067713, -49.641554257440355);
@@ -52,6 +61,15 @@ export {
     image_9_URL,
     image_9_sw,
     image_9_ne,
+
+    image_10_URL,
+    image_10_sw,
+    image_10_ne,
+
+    image_17_URL,
+    image_17_sw,
+    image_17_ne,
+
 
     megagon_industries_URL,
     megagon_industries_sw,
