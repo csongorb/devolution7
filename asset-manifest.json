@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/devolution7/static/css/main.766efab8.css",
-    "main.js": "/devolution7/static/js/main.01bf622f.js",
-    "static/media/android_001.png": "/devolution7/static/media/android_001.ce3766bc15f3f4dd6912.png",
-    "static/media/android_005.png": "/devolution7/static/media/android_005.2b18f08c2d7374cab740.png",
-    "static/media/protoMarch16.png": "/devolution7/static/media/protoMarch16.b6e5bc6311138bcb24ab.png",
-    "static/media/protoAugust16.png": "/devolution7/static/media/protoAugust16.90136576651bb86f1dd6.png",
-    "static/media/android_013.png": "/devolution7/static/media/android_013.d713e9c80878fb64cdf5.png",
-    "static/media/version_1_1_7.jpg": "/devolution7/static/media/version_1_1_7.b6cf4b9d4994745a8ebe.jpg",
-    "static/media/version_1_1_4.jpg": "/devolution7/static/media/version_1_1_4.57b56beb6b9959e6eddd.jpg",
-    "static/media/backerdemo.jpg": "/devolution7/static/media/backerdemo.2ae23fb9fcde22e07586.jpg",
-    "static/media/android_003.jpg": "/devolution7/static/media/android_003.2c83238099030db4a8da.jpg",
+    "main.js": "/devolution7/static/js/main.cb2952f3.js",
+    "static/media/version_1_1_4_small.jpg": "/devolution7/static/media/version_1_1_4_small.99bd60be06544f331d2c.jpg",
+    "static/media/version_1_1_7_small.jpg": "/devolution7/static/media/version_1_1_7_small.5625f7196cedf4c092e1.jpg",
+    "static/media/android_001_small.png": "/devolution7/static/media/android_001_small.a165848562bc385bef22.png",
+    "static/media/android_013_small.png": "/devolution7/static/media/android_013_small.e436e64c10367cd542f5.png",
+    "static/media/protoMarch16_small.png": "/devolution7/static/media/protoMarch16_small.f76198df549742ddad73.png",
+    "static/media/android_005_small.png": "/devolution7/static/media/android_005_small.91e1acf598e0ffa68f9a.png",
+    "static/media/backerdemo_small.jpg": "/devolution7/static/media/backerdemo_small.a6b7728d43a54acaf839.jpg",
+    "static/media/protoAugust16_small.png": "/devolution7/static/media/protoAugust16_small.68cbcd55b419502dd638.png",
+    "static/media/android_003_small.jpg": "/devolution7/static/media/android_003_small.4a6c4656eb38a6ffabac.jpg",
+    "static/media/winicon.png": "/devolution7/static/media/winicon.28df4afa4b029e33deb5.png",
     "static/media/Logo_Devolution_small.png": "/devolution7/static/media/Logo_Devolution_small.6898f54892c210ccbd92.png",
     "index.html": "/devolution7/index.html",
     "main.766efab8.css.map": "/devolution7/static/css/main.766efab8.css.map",
-    "main.01bf622f.js.map": "/devolution7/static/js/main.01bf622f.js.map"
+    "main.cb2952f3.js.map": "/devolution7/static/js/main.cb2952f3.js.map"
   },
   "entrypoints": [
     "static/css/main.766efab8.css",
-    "static/js/main.01bf622f.js"
+    "static/js/main.cb2952f3.js"
   ]
 }
