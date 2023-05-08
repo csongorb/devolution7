@@ -23,10 +23,25 @@ const image_10_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/mas
 const image_10_sw = L.latLng(76.93341135810341, -105.03204345703126); //  southwest coordinate
 const image_10_ne = L.latLng(77.40185061073129, -101.26922607421876); //  northeast coordinate
 
+const image_16_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image16.gif'; //path to raw file stored on github 
+const image_16_sw = L.latLng(71.56716236106318, -85.63568115234376); //  southwest coordinate
+const image_16_ne = L.latLng(72.23098799368212, -82.62542724609376); //  northeast coordinate
+
 const image_17_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image17.gif'; //path to raw file stored on github 
 const image_17_sw = L.latLng(72.25779089910077, -85.63568115234376); //  southwest coordinate
 const image_17_ne = L.latLng(72.88458958868159, -82.62542724609376); //  northeast coordinate
 
+const image_35_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image35.gif'; //path to raw file stored on github 
+const image_35_sw = L.latLng(60.765330530709996, -69.41986083984376); //  southwest coordinate
+const image_35_ne = L.latLng(61.664592399485905, -66.17889404296876); //  northeast coordinate
+
+const image_36_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image36.gif'; //path to raw file stored on github 
+const image_36_sw = L.latLng(60.48239739097804, -66.09100341796876); //  southwest coordinate
+const image_36_ne = L.latLng(61.66198505673872, -62.33367919921876); //  northeast coordinate
+
+const image_60_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image60.gif'; //path to raw file stored on github 
+const image_60_sw = L.latLng(-0.13018794331111386, -83.04840087890626); //  southwest coordinate
+const image_60_ne = L.latLng(2.1215242609344274, -79.06585693359376); //  northeast coordinate
 
 //boxes for links with popups
 const megagon_industries_URL = "https://megagonindustries.com/";
@@ -66,10 +81,25 @@ export {
     image_10_sw,
     image_10_ne,
 
+    image_16_URL,
+    image_16_sw,
+    image_16_ne,
+
     image_17_URL,
     image_17_sw,
     image_17_ne,
 
+    image_35_URL,
+    image_35_sw,
+    image_35_ne,
+
+    image_36_URL,
+    image_36_sw,
+    image_36_ne,
+
+    image_60_URL,
+    image_60_sw,
+    image_60_ne,
 
     megagon_industries_URL,
     megagon_industries_sw,
