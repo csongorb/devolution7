@@ -3,15 +3,15 @@ import CardItem from './CardItem'
 import "./Card.css"
 
 //todo deal with images better
-import android1 from "../../src/assets/images/versions/android_001.png"
-import android2 from "../../src/assets/images/versions/android_003.jpg"
-import android3 from "../../src/assets/images/versions/android_005.png"
-import android4 from "../../src/assets/images/versions/android_013.png"
-import version5 from "../../src/assets/images/versions/protoMarch16.png"
-import version6 from "../../src/assets/images/versions/protoAugust16.png"
-import version7 from "../../src/assets/images/versions/backerdemo.jpg"
-import version8 from "../../src/assets/images/versions/version_1_1_4.jpg"
-import version9 from "../../src/assets/images/versions/version_1_1_7.jpg"
+import android1 from "../../src/assets/images/versions/android_001_small.png"
+import android2 from "../../src/assets/images/versions/android_003_small.jpg"
+import android3 from "../../src/assets/images/versions/android_005_small.png"
+import android4 from "../../src/assets/images/versions/android_013_small.png"
+import version5 from "../../src/assets/images/versions/protoMarch16_small.png"
+import version6 from "../../src/assets/images/versions/protoAugust16_small.png"
+import version7 from "../../src/assets/images/versions/backerdemo_small.jpg"
+import version8 from "../../src/assets/images/versions/version_1_1_4_small.jpg"
+import version9 from "../../src/assets/images/versions/version_1_1_7_small.jpg"
 
 function Cards() {
   return (
