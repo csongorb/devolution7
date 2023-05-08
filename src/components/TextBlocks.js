@@ -1,7 +1,6 @@
 import React from 'react'
 import "./TextBlocks.css"
 import LeafletMap from './LeafletMap';
-import Cards from './Cards'
 
 import android1 from "../../src/assets/images/versions/android_001_small.png"
 import android2 from "../../src/assets/images/versions/android_003_small.jpg"
@@ -290,10 +289,7 @@ function TextBlocks() {
         </tr>
       </table>
       </div>
-
     </div>
-
-    <Cards />
 
     <div className="text-block">
       <h1>
