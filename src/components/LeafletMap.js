@@ -76,6 +76,26 @@ function LeafletMap() {
         </Popup>
       </Rectangle>
 
+      <Rectangle
+        bounds={[constants.lara_croft_sw, constants.lara_croft_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lara_croft_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.yeti_mountain_sw, constants.yeti_mountain_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.yeti_mountain_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
       <Circle
       center={constants.kickstarter_interview_bubenik_center}
       radius={constants.circular_area_radius}
@@ -100,6 +120,7 @@ function LeafletMap() {
       radius={constants.circular_area_radius}
       stroke={false}
       fillOpacity={0.5}
+      color="#FF0000"
       >
         <Popup><a href={constants.igf_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
