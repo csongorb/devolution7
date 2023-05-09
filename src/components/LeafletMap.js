@@ -67,6 +67,67 @@ function LeafletMap() {
       </Rectangle>
 
       <Rectangle
+        bounds={[constants.pc_gamer_interview_sw, constants.pc_gamer_interview_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+          <a href={constants.pc_gamer_interview_URL } target="_blank" rel="noreferrer">PC Gamer Interview</a>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.dirt_mountainbike_sw, constants.dirt_mountainbike_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+          <a href={constants.dirt_mountainbike_URL } target="_blank" rel="noreferrer">Greenlight Trailer</a>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.reddit_gamepass_sw, constants.reddit_gamepass_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+          <a href={constants.reddit_gamepass_URL } target="_blank" rel="noreferrer">Reddit Game Pass Thread</a>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_changelog_sw, constants.lmd_changelog_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+          <a href={constants.lmd_changelog_URL } target="_blank" rel="noreferrer">LMD Change Log</a>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.eightylevel_interview_sw, constants.eightylevel_interview_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+          <a href={constants.eightylevel_interview_URL } target="_blank" rel="noreferrer">80LV Interview</a>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.gamedeveloper_interview_sw, constants.gamedeveloper_interview_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+          <a href={constants.gamedeveloper_interview_URL } target="_blank" rel="noreferrer">Game Developer Interview</a>
+        </Popup>
+      </Rectangle>
+
+
+      <Rectangle
         bounds={[constants.greenlight_trailer_sw, constants.greenlight_trailer_ne]}
         color="#66000000"
         fillOpacity={0}

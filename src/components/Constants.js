@@ -80,6 +80,30 @@ const megagon_industries_URL = "https://megagonindustries.com/";
 const megagon_industries_sw = L.latLng(81.16875812380145, -55.95336914062501);
 const megagon_industries_ne = L.latLng(82.04665216250261, -49.010009765625);
 
+const pc_gamer_interview_URL = "https://www.pcgamer.com/lonely-mountains-downhill-is-the-mountain-biking-game-i-never-knew-i-needed/";
+const pc_gamer_interview_sw = L.latLng(70.34092679475283, -86.94305419921875);
+const pc_gamer_interview_ne = L.latLng(71.19837924340516, -84.94354248046876);
+
+const dirt_mountainbike_URL = "https://dirtmountainbike.com/videos/watch-lonely-mountains-new-downhill-mtb-video-game-trailer";
+const dirt_mountainbike_sw = L.latLng(70.34092679475283, -84.83093261718751);
+const dirt_mountainbike_ne = L.latLng(71.18421085713157, -82.56774902343751);
+
+const reddit_gamepass_URL = "https://www.reddit.com/r/xboxone/comments/dmc4d3/lonely_mountains_downhill_is_is_out_now_on_game/";
+const reddit_gamepass_sw = L.latLng(2.3065056838291094, -115.21362304687501);
+const reddit_gamepass_ne = L.latLng(5.419148251825298, -110.86303710937501);
+
+const lmd_changelog_URL = "https://lonelymountains.com/lonely-mountains/change-log/";
+const lmd_changelog_sw = L.latLng(-10.568822151626943, -90.53009033203125);
+const lmd_changelog_ne = L.latLng(-7.819847426192575, -88.45367431640625);
+
+const eightylevel_interview_URL = "https://80.lv/articles/level-game-production-lonely-mountains-downhill/";
+const eightylevel_interview_sw = L.latLng(-18.041421221891937, -90.28015136718751);
+const eightylevel_interview_ne = L.latLng(-14.477234210156519, -87.7093505859375);
+
+const gamedeveloper_interview_URL = "https://www.gamedeveloper.com/disciplines/road-to-the-igf-megagon-industries-i-lonely-mountains-downhill-i-";
+const gamedeveloper_interview_sw = L.latLng(-8.602747284770018, -83.76525878906251);
+const gamedeveloper_interview_ne = L.latLng(-4.850154078505659, -81.3702392578125);
+
 const greenlight_trailer_URL = "https://www.youtube.com/embed/_-KESI3qIBg";
 const greenlight_trailer_sw =  L.latLng(69.34604503609113, -79.74700927734376); 
 const greenlight_trailer_ne =  L.latLng(70.14465591204957, -76.65985107421875); 
@@ -300,7 +324,30 @@ export {
     lmd_misty_peak_sw,
     lmd_misty_peak_ne,
 
+    pc_gamer_interview_URL,
+    pc_gamer_interview_sw,
+    pc_gamer_interview_ne, 
 
+    dirt_mountainbike_URL,
+    dirt_mountainbike_sw,
+    dirt_mountainbike_ne,
+
+    reddit_gamepass_URL,
+    reddit_gamepass_sw,
+    reddit_gamepass_ne,
+
+    lmd_changelog_URL,
+    lmd_changelog_sw,
+    lmd_changelog_ne,
+
+    eightylevel_interview_URL,
+    eightylevel_interview_sw,
+    eightylevel_interview_ne,
+
+    gamedeveloper_interview_URL,
+    gamedeveloper_interview_sw,
+    gamedeveloper_interview_ne,
+    
     circular_area_radius,
 
     kickstarter_interview_URL,
