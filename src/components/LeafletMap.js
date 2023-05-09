@@ -116,6 +116,86 @@ function LeafletMap() {
         </Popup>
       </Rectangle>
 
+      <Rectangle
+        bounds={[constants.lmd_climate_change_edition_sw, constants.lmd_climate_change_edition_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_climate_change_edition_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_kickstarter_trailer_sw, constants.lmd_kickstarter_trailer_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_kickstarter_trailer_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_demo_gameplay_sw, constants.lmd_demo_gameplay_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_demo_gameplay_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_launch_trailer_sw, constants.lmd_launch_trailer_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_launch_trailer_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_dev_speedrun_sw, constants.lmd_dev_speedrun_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_dev_speedrun_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_eldfjall_island_sw, constants.lmd_eldfjall_island_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_eldfjall_island_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_rileys_return_sw, constants.lmd_rileys_return_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_rileys_return_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_misty_peak_sw, constants.lmd_misty_peak_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_misty_peak_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
       <Circle
       center={constants.kickstarter_interview_bubenik_center}
       radius={constants.circular_area_radius}
@@ -149,14 +229,23 @@ function LeafletMap() {
       <ImageOverlay url={constants.image_8_URL} bounds={L.latLngBounds(constants.image_8_sw, constants.image_8_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_9_URL} bounds={L.latLngBounds(constants.image_9_sw, constants.image_9_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_10_URL} bounds={L.latLngBounds(constants.image_10_sw, constants.image_10_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_11_URL} bounds={L.latLngBounds(constants.image_11_sw, constants.image_11_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_12_URL} bounds={L.latLngBounds(constants.image_12_sw, constants.image_12_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_13_URL} bounds={L.latLngBounds(constants.image_13_sw, constants.image_13_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_14_URL} bounds={L.latLngBounds(constants.image_14_sw, constants.image_14_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_15_URL} bounds={L.latLngBounds(constants.image_15_sw, constants.image_15_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_16_URL} bounds={L.latLngBounds(constants.image_16_sw, constants.image_16_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_17_URL} bounds={L.latLngBounds(constants.image_17_sw, constants.image_17_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_35_URL} bounds={L.latLngBounds(constants.image_35_sw, constants.image_35_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_36_URL} bounds={L.latLngBounds(constants.image_36_sw, constants.image_36_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_60_URL} bounds={L.latLngBounds(constants.image_60_sw, constants.image_60_ne)} opacity={1}/>
-      <ImageOverlay url={constants.image_78_URL} bounds={L.latLngBounds(constants.image_78_sw, constants.image_78_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_76_URL} bounds={L.latLngBounds(constants.image_76_sw, constants.image_76_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_77_URL} bounds={L.latLngBounds(constants.image_77_sw, constants.image_77_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_78_URL} bounds={L.latLngBounds(constants.image_78_sw, constants.image_78_ne)} opacity={1}/>
+      
+      
+     
+  
   
   
 
