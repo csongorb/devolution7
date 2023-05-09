@@ -77,8 +77,8 @@ const image_78_ne = L.latLng(-13.361295597106919, -53.40179443359376); //  north
 
 //boxes for links with popups
 const megagon_industries_URL = "https://megagonindustries.com/";
-const megagon_industries_sw = L.latLng(81.92858708067713, -49.641554257440355);
-const megagon_industries_ne = L.latLng(82.70354383450336, -42.88528433004333);
+const megagon_industries_sw = L.latLng(81.16875812380145, -55.95336914062501);
+const megagon_industries_ne = L.latLng(82.04665216250261, -49.010009765625);
 
 const greenlight_trailer_URL = "https://www.youtube.com/embed/_-KESI3qIBg";
 const greenlight_trailer_sw =  L.latLng(69.34604503609113, -79.74700927734376); 
@@ -137,11 +137,25 @@ const lmd_misty_peak_ne =  L.latLng(-21.088087883896886, -38.17474365234376);
 const circular_area_radius = 50000;
 
 const kickstarter_interview_URL = "https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview";
-const kickstarter_interview_bubenik_center = L.latLng(83.35696994817707, -74.20223862097612); 
-const kickstarter_interview_helbig_center = L.latLng(82.60875400198577, -83.36488354477183); 
+const kickstarter_interview_bubenik_center = L.latLng(84.06756838040903, -90.41748046875001); 
+const kickstarter_interview_bubenik2_center = L.latLng(72.02854424228212, -50.67993164062501); 
+const kickstarter_interview_helbig_center = L.latLng(83.4007996617237, -99.39331054687501); 
 
 const igf_interview_URL = "https://www.gamedeveloper.com/disciplines/road-to-the-igf-megagon-industries-i-lonely-mountains-downhill-i-"
-const igf_interview_center = L.latLng(82.4198342344112, -62.930088148720806); 
+const igf_interview_center = L.latLng(80.91906707076518, -78.07983398437501); 
+
+const making_games_pdf_URL = "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing"
+const making_games_helbig1_center = L.latLng(73.78989382063298, -107.08374023437501); 
+const making_games_helbig2_center = L.latLng(62.003998999884374, -80.27709960937501); 
+const making_games_bubenik1_center = L.latLng(73.5738184440644, -79.68383789062501); 
+
+const eggplant_interview_URL = "https://eggplant.show/63-finding-your-own-path-with-daniel-helbig"
+const eggplant_interview_helbig1_center = L.latLng(71.42227937635714, -100.096435546875); 
+
+const eighty_lv_interview_URL = "https://80.lv/articles/level-game-production-lonely-mountains-downhill"
+const eighty_lv_helbigandbubenik1_center = L.latLng(61.1707946011717, -52.36083984375); 
+
+
 
 export {
     MAP_BOUNDS,
@@ -277,6 +291,14 @@ export {
     kickstarter_interview_bubenik_center,
     kickstarter_interview_helbig_center,
     igf_interview_URL,
-    igf_interview_center
-
+    igf_interview_center,
+    making_games_pdf_URL,
+    making_games_helbig1_center,
+    making_games_bubenik1_center,
+    kickstarter_interview_bubenik2_center,
+    eggplant_interview_URL,
+    eggplant_interview_helbig1_center,
+    making_games_helbig2_center,
+    eighty_lv_interview_URL, 
+    eighty_lv_helbigandbubenik1_center
     };
