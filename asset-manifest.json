@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/devolution7/static/css/main.88d37d45.css",
-    "main.js": "/devolution7/static/js/main.f304ca14.js",
+    "main.js": "/devolution7/static/js/main.eed2f17a.js",
     "static/media/version_1_1_4_small.jpg": "/devolution7/static/media/version_1_1_4_small.99bd60be06544f331d2c.jpg",
     "static/media/version_1_1_7_small.jpg": "/devolution7/static/media/version_1_1_7_small.5625f7196cedf4c092e1.jpg",
     "static/media/android_001_small.png": "/devolution7/static/media/android_001_small.a165848562bc385bef22.png",
@@ -15,10 +15,10 @@
     "static/media/Logo_Devolution_small.png": "/devolution7/static/media/Logo_Devolution_small.6898f54892c210ccbd92.png",
     "index.html": "/devolution7/index.html",
     "main.88d37d45.css.map": "/devolution7/static/css/main.88d37d45.css.map",
-    "main.f304ca14.js.map": "/devolution7/static/js/main.f304ca14.js.map"
+    "main.eed2f17a.js.map": "/devolution7/static/js/main.eed2f17a.js.map"
   },
   "entrypoints": [
     "static/css/main.88d37d45.css",
-    "static/js/main.f304ca14.js"
+    "static/js/main.eed2f17a.js"
   ]
 }
