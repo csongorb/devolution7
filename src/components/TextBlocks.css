@@ -16,6 +16,7 @@ ul {
   margin: 0 auto;
   row-gap: 15px;
   padding: 1em;
+  
 }
 
 .text-block-columns
@@ -44,6 +45,7 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: left;
   place-self: center;
+  background-color: #f4f4f4 
 }
 
 .map-block
