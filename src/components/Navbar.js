@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import {Link} from "react-router-dom"
 import './Navbar.css';
 import logo from "../../src/assets/Logo_Devolution_small.png"
 
@@ -39,14 +38,14 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <p className='nav-links' onClick={closeMobileMenu}>
                             Home
-                        </Link>
+                        </p>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                        <p className='nav-links' onClick={closeMobileMenu}>
                             About
-                        </Link>
+                        </p>
                     </li>
                 </ul>
             </div>

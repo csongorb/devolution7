@@ -1,36 +1,34 @@
 import React from 'react'
 import "./Footer.css"
-import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer-container'>
 
           <div className='social-icons'>
 
-            <Link
+            <a href='https://twitter.com/devolutionbln'
               className='social-icon-link twitter'
-              to='https://twitter.com/devolutionbln'
-              target='_blank'
+              target='_blank' rel="noreferrer"
               aria-label='Twitter'
             >
               <i className='fab fa-twitter' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link mastodon'
-              to='https://sunny.garden/@devolution'
-              target='_blank'
+              href='https://sunny.garden/@devolution'
+              target='_blank' rel="noreferrer"
               aria-label='Mastodon'
             >
               <i className='fab fa-mastodon' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link youtube'
-              to='https://www.youtube.com/@devolution6462'
-              target='_blank'
+              href='https://www.youtube.com/@devolution6462'
+              target='_blank' rel="noreferrer"
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
-            </Link>
+            </a>
 
           </div>
 
