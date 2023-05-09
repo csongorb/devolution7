@@ -185,6 +185,81 @@ Looking at games and game development from the perspective of Devolution lets yo
             </a><br />
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
           </div>
+          <div className='version-item'>
+            <h3>Proto March 16</h3>
+          March 23rd 2016<br />
+           <img src={version5} width="150" height="150" alt="Proto March 16"></img> <br />
+           <br />
+           <div className='version-item-platforms'>
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a>
+             </div>
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+          </div>
+          <div className='version-item'>
+          <h3>Proto August 16</h3>
+          August 16th 2016<br />
+           <img src={version6} width="150" height="150" alt="Proto August 16"></img> <br />
+           <br />
+           <div className='version-item-platforms'>
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a>
+             </div>
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+          </div>
+          <div className='version-item'>
+          <h3>Backer Demo</h3>
+          November 18th 2017<br />
+           <img src={version7} width="150" height="150" alt="Backer Demo"></img> <br />
+           <br />
+           <div className='version-item-platforms'>
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a>
+             </div>
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+          </div>
+          <div className='version-item'>
+          <h3>Dev Access 1.1.4</h3>
+          May 3rd 2018<br />
+           <img src={version8} width="150" height="150" alt="Dev Access 1.1.4"></img> <br />
+           <br />
+           <div className='version-item-platforms'>
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+             <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+             </a>
+             </div>
+            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+          </div>
+          <div className='version-item'>
+          <h3>Dev Access 1.1.7</h3>
+          September 10th 2018<br />
+          <img src={version9} width="150" height="150" alt="Dev Access 1.1.7"></img> <br />
+          <br />
+          <div className='version-item-platforms'>
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+           <img src={winicon} width="40" height="40" alt="Andoid_001"></img>
+           </a>
+           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <img src={osxicon} width="40" height="40" alt="Andoid_001"></img>
+            </a>
+            </div>
+           <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
+          </div>
         </ul>     
         </div>
       </div>
@@ -199,13 +274,62 @@ Looking at games and game development from the perspective of Devolution lets yo
       from early prototypes to later iterations. Visitors can explore the creative process behind the development,
       encountering new insights with each version they play and each comparison they make.<br />
       <br />
-     
-
+      <div className='text-block-columns'>
+        <div className="text-table-block">
+        <h3>
+          Exhibition Tours
+          </h3>
+          <br />
+          For the ultimate insight into the development of Lonely Mountains: Downhill and its design decisions, join the <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/schedule/">guided tours</a> through the exhibition held by the developers themselves, complementing the exhibited versions with background information, secrets and anecdotes.
+        </div>
+        <div className="text-table-block">
+        <h3>
+          Schedule
+        </h3>
+        <br />
+          Thursday, 11th of May 2023, 14:00 - 15:00<br /> with Daniel Helbig
+          <br /> <br />
+          Friday, 12th of May 2023, 14:00 - 15:00<br />  with Jan Bubenik
+          <br /> <br />
+          Saturday, 13th of May 2023, 14:00 - 15:00<br /> with Anna Bloser
+        </div>
+      </div>
       </div>
 
       <div className="text-block">
       <h1>Credits</h1>
       <br />
+      <div className='text-block-columns'>
+      <div className="text-table-block">
+        <h3>Partners</h3>
+        <br />
+        Devolution #7 - Lonely Mountains: Downhill is a cooperation between <a target="_blank" rel="noopener noreferrer" href="https://devolution.online/">Devolution</a>
+        , <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/">A MAZE. / Berlin 2023</a>, <a target="_blank" rel="noopener noreferrer" href="https://megagonindustries.com/">Megagon Industries</a>
+        and UE University of Europe for Applied Sciences.<br />
+        <br />
+        Huge THANK YOU to the developers for their trust, cooperation and support!
+      </div>
+      <div className="text-table-block">
+      <h3>Team</h3>
+      <ul>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/al.085/">Almat Kabdolov</a> (Concept Art, Graphic Design)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anna-margret-jonudottir-912226274/">Anna Margrét Jónudóttir</a> (Exhibition Moderation, Timeline, Website)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/christoph-maureder-093088211/">Christoph Maureder</a> (Tech Advising)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rzldzl_/">Diana-Maria Niculescu</a> (Exhibition Moderation, PR, Social Media)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/eyal-peleg-harris-393ba6273/">Eyal Peleg Harris</a> (Producer)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/supersymetria/">Hanna Kołodziejczyk</a> (Graphic Design)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://janwatever.artstation.com/">Jan Teo Jia Xian</a> (Exhibition Director)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juan-camilo-osorio-arizabaleta-85a5621b0/">Juan Osorio</a> (Timeline)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cracea.levent/">Levent Cracea</a> (Exhibition, PR, Video Editing)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://maria-shchurova.github.io/">Maria Shchurova</a> (Website)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mark-komives-524951183/">Mark Komives</a> (Graphic Design)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/maschacamino">Mascha Camino</a> (Advising)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nayan_kira?s=20">Nayan Bhat</a> (Devolution #6 Website Update)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pavlo-vasylevych-969099243/">Pavlo Vasylevych</a> (Producer)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="http://csongorb.com/">Csongor Baranyai</a> (Creative Direction, Curation)</li>
+      </ul>
+      </div>
+      </div>
 
       
 

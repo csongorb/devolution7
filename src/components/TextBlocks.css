@@ -1,92 +1,95 @@
 
-  table tr td {
-    vertical-align: top;
-    text-align: justify;
-  }
+table tr td {
+  vertical-align: top;
+  text-align: justify;
+}
 
-  ul {
-    padding: 20px;
-  }
+ul {
+  padding: 20px;
+}
 
-  .text-block-container{
-    display: grid;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
-    row-gap: 15px;
-    padding: 1em;
-  }
+.text-block-container{
+  display: grid;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  row-gap: 15px;
+  padding: 1em;
+}
 
-  .text-block-columns
-  {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;    
-  }
+.text-block-columns
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;    
+}
 
-  .text-table-block
-  {
-    padding: 10px;
-  }
+.text-table-block
+{
+  padding: 10px;
+}
 
-  .text-small-centered-block{
-    margin-right: 250px;
-    margin-left: 250px;
-  }
+.text-small-centered-block{
+  margin-right: 250px;
+  margin-left: 250px;
+}
 
-  .text-block
-  {
-    padding: 2rem;
-    max-width: 1120px;
-    margin: 0 1rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: left;
-    place-self: center;
-  }
+.text-block
+{
+  padding: 2rem;
+  max-width: 1120px;
+  margin: 0 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  place-self: center;
+}
 
-  .map-block
-  {
-    padding: 2rem;
-    max-width: 2120px;
-    width: 150%;
-    margin: 0 1rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    place-self: center;
-  }
+.map-block
+{
+  padding: 2rem;
+  max-width: 2120px;
+  width: 150%;
+  margin: 0 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  place-self: center;
+}
 
-  .versions-container {
-    display: grid;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .versions-wrapper {
-    position: relative;
-    margin: 55px 0 45px;
-  }
-  
-  .versions-items {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  
-  .version-item {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    overflow: hidden;
-    text-decoration: none;
-  }
-  
-  
-  
-  
-  
-  
+.versions-container {
+  display: grid;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.versions-wrapper {
+  position: relative;
+  margin: 55px 0 45px;
+}
+
+.versions-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.version-item {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  overflow: hidden;
+  text-decoration: none;
+}
+.version-item-platforms{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
