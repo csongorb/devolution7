@@ -220,9 +220,17 @@ function LeafletMap() {
       radius={constants.circular_area_radius}
       stroke={false}
       fillOpacity={0.5}
-      color="#FF0000"
       >
         <Popup><a href={constants.igf_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_pdf_center}
+      radius={constants.circular_area_radius}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
 
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
