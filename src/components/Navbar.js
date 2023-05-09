@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import './Navbar.css';
-import logo from "../../src/assets/Logo_Devolution_small.png"
 
 
 function Navbar(props) {
@@ -37,9 +36,7 @@ function Navbar(props) {
     <>
         <nav className="navbar">
             <div className="navbar-container">
-                <div className="navbar-logo">
-                    <img src={logo} alt="devolution logo"/>
-                </div>
+                
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} />
                 </div>

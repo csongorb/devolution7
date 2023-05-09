@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import TextBlocks from './components/TextBlocks';
 import Footer from './components/Footer';
 import './App.css';
+import logo from "./assets/Logo_Devolution_small.png"
 
 function App() {
 
@@ -25,6 +26,11 @@ function App() {
   
   return (
     <div>
+    <div className='logo-area'>
+      <div className="navbar-logo">
+        <img src={logo} alt="devolution logo"/>
+      </div>
+    </div>
       <Navbar onItemClick={handleNavbarItemClick}/>
       <TextBlocks />
       <Footer />
