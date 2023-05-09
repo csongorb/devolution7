@@ -30,7 +30,7 @@ function TextBlocks() {
       <br />
       <div className='text-block-columns'>
         <div className="text-table-block">
-          
+
 Looking at games and game development from the perspective of Devolution lets you discover new and inspiring aspects of how games are growing into shape. In contrast to the usual reception of the results, Devolution reveals the whole road up to them.
         </div>
         <div className="text-table-block">
@@ -78,8 +78,8 @@ Looking at games and game development from the perspective of Devolution lets yo
       </h3>
       <br />
       <p style={{ fontStyle: 'italic' }}>
-        “Games develop in a way that I can only describe as organic, 
-        in that they tend to start as a core and then grow outward.”</p> 
+        “Games develop in a way that I can only describe as organic,
+        in that they tend to start as a core and then grow outward.”</p>
         <p align="right">- David Oreilly (Everything, Mountain)</p>
       </div>
     </div>
@@ -90,7 +90,7 @@ Looking at games and game development from the perspective of Devolution lets yo
       </h1>
       <br/>
       <div className='text-block-columns'>
-        <div className="text-table-block">                  
+        <div className="text-table-block">
         The online exhibition showcasing the development process of Lonely Mountains: Downhill is available for permanent viewing, offering visitors an opportunity to explore an interactive timeline of the game's evolution, downloadable and playable early prototypes and in-between versions of the game.
         </div>
         <div className="text-table-block">
@@ -151,7 +151,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           July 16th 2015<br />
           <img src={android1} width="150" height="150" alt="Andoid_001"></img>
           <br />
-           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+           <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/150716_downhill_001.apk">
             <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
             </a><br />
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
@@ -161,17 +161,17 @@ Looking at games and game development from the perspective of Devolution lets yo
             October 19th 2015<br />
             <img src={android2} width="150" height="150" alt="Andoid_003"></img> <br />
             <br />
-            <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/151019_downhill_003.apk">
               <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
               </a><br />
-              <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>          
+              <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
           </div>
           <div className='version-item'>
           <h3>Android 005</h3>
           January 22nd 2016<br />
            <img src={android3} width="150" height="150" alt="Andoid_005"></img> <br />
            <br />
-           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+           <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160122_downhill_005.apk">
             <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
             </a><br />
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
@@ -181,7 +181,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           June 29th 2016<br />
            <img src={android4} width="150" height="150" alt="Andoid_013"></img> <br />
            <br />
-           <a target="_blank" rel="noopener noreferrer" href="https://lonelymountains.com/">
+           <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160629_downhill_013.apk">
             <img src={androidicon} width="40" height="40" alt="Andoid_001"></img>
             </a><br />
             <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
@@ -261,7 +261,7 @@ Looking at games and game development from the perspective of Devolution lets yo
             </div>
            <small>asdfadf adflkkl aldkfalkj asdlfakdfj asdjflkj laksdj ooow asdlfl alls</small>
           </div>
-        </ul>     
+        </ul>
         </div>
       </div>
     </div>
@@ -332,7 +332,7 @@ Looking at games and game development from the perspective of Devolution lets yo
       </div>
       </div>
 
-      
+
 
 
 
