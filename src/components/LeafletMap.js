@@ -96,6 +96,26 @@ function LeafletMap() {
         </Popup>
       </Rectangle>
 
+      <Rectangle
+        bounds={[constants.and_then_it_rained_sw, constants.and_then_it_rained_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.and_then_it_rained_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.twisted_lines_trailer_sw, constants.twisted_lines_trailer_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.twisted_lines_trailer_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
       <Circle
       center={constants.kickstarter_interview_bubenik_center}
       radius={constants.circular_area_radius}

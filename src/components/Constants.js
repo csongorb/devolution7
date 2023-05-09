@@ -72,6 +72,14 @@ const lara_croft_URL = "https://www.youtube.com/embed/Ox-9IOBbJnM";
 const lara_croft_sw =  L.latLng(81.68720912699644, -130.42419433593753); 
 const lara_croft_ne =  L.latLng(82.17138585132723, -125.86486816406251); 
 
+const and_then_it_rained_URL = "https://www.youtube.com/embed/R7g7UlFlMA8";
+const and_then_it_rained_sw =  L.latLng(81.28030141150958, -48.67218017578126); 
+const and_then_it_rained_ne =  L.latLng(81.68855913146949, -44.98077392578126); 
+
+const twisted_lines_trailer_URL = "https://www.youtube.com/embed/x97HDeZO5ME";
+const twisted_lines_trailer_sw =  L.latLng(81.27696971088555, -44.76654052734375); 
+const twisted_lines_trailer_ne =  L.latLng(81.68697086546005, -41.05865478515626); 
+
 //circular parameters for links with popups
 const circular_area_radius = 50000;
 
@@ -148,6 +156,14 @@ export {
     yeti_mountain_URL,
     yeti_mountain_sw,
     yeti_mountain_ne,
+
+    and_then_it_rained_URL,
+    and_then_it_rained_sw,
+    and_then_it_rained_ne,
+
+    twisted_lines_trailer_URL,
+    twisted_lines_trailer_sw,
+    twisted_lines_trailer_ne,
 
     circular_area_radius,
 
