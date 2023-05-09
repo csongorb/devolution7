@@ -272,7 +272,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -281,7 +281,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
 
@@ -291,7 +291,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.igf_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.igf_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -300,7 +300,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -309,7 +309,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -318,7 +318,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -327,7 +327,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.eggplant_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.eggplant_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -336,7 +336,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.eggplant_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.eggplant_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -345,7 +345,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -354,7 +354,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -363,7 +363,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -372,7 +372,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -381,7 +381,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -390,7 +390,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -399,7 +399,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.syndrone_podcast_URL} target="_blank" rel="noreferrer">podcast link</a></Popup>
+        <Popup><a href={constants.syndrone_podcast_URL} target="_blank" rel="noreferrer"> Syndrone Podcast Link</a></Popup>
       </Circle>
 
       <Circle
@@ -408,7 +408,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -417,7 +417,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -426,7 +426,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -435,7 +435,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -444,7 +444,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">Interview Link</a></Popup>
       </Circle>
 
       <Circle
@@ -453,7 +453,7 @@ function LeafletMap() {
       stroke={false}
       fillOpacity={0.0}
       >
-        <Popup><a href={constants.bubenik_podcast_URL} target="_blank" rel="noreferrer">podcast link</a></Popup>
+        <Popup><a href={constants.bubenik_podcast_URL} target="_blank" rel="noreferrer">Jan Bubenik Podcast Link</a></Popup>
       </Circle>
 
 

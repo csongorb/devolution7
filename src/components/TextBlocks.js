@@ -124,7 +124,8 @@ Looking at games and game development from the perspective of Devolution lets yo
       Explore the Timeline!
     </h1>
       <br />
-      The timeline of the development of Lonely Mountains: Downhill for deeper insights into the development process of the game. Explore and find interesting connections!<br />
+      The timeline of the development of Lonely Mountains: Downhill for deeper insights into the development process of the game. Explore and find interesting connections!
+      The timeline is interactive, with links to interviews, podcasts, videos and more, so use your mouse to click on the elements.
       <br />
       <LeafletMap/>
     </div>
