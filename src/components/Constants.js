@@ -23,6 +23,26 @@ const image_10_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/mas
 const image_10_sw = L.latLng(76.93341135810341, -105.03204345703126); //  southwest coordinate
 const image_10_ne = L.latLng(77.40185061073129, -101.26922607421876); //  northeast coordinate
 
+const image_11_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image11.gif'; //path to raw file stored on github 
+const image_11_sw = L.latLng(71.48011967136058, -63.86077880859376); //  southwest coordinate
+const image_11_ne = L.latLng(71.85160973963254, -62.04803466796876); //  northeast coordinate
+
+const image_12_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image12.gif'; //path to raw file stored on github 
+const image_12_sw = L.latLng(71.20245075633429, -62.21282958984376); //  southwest coordinate
+const image_12_ne = L.latLng(71.4626635988984, -60.77911376953126); //  northeast coordinate
+
+const image_13_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image13.gif'; //path to raw file stored on github 
+const image_13_sw = L.latLng(70.78745215040927, -62.97637939453126); //  southwest coordinate
+const image_13_ne = L.latLng(71.18119875503511, -61.47674560546876); //  northeast coordinate
+
+const image_14_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image14.gif'; //path to raw file stored on github 
+const image_14_sw = L.latLng(71.20599050686621, -63.85528564453126); //  southwest coordinate
+const image_14_ne = L.latLng(71.4679020868983, -62.27874755859376); //  northeast coordinate
+
+const image_15_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image15.gif'; //path to raw file stored on github 
+const image_15_sw = L.latLng(71.48186440599106, -61.95465087890626); //  southwest coordinate
+const image_15_ne = L.latLng(71.85160973963254, -60.77362060546876); //  northeast coordinate
+
 const image_16_URL = 'https://raw.githubusercontent.com/csongorb/devolution7/master/src/assets/images/leafletimages/image16.gif'; //path to raw file stored on github 
 const image_16_sw = L.latLng(71.56716236106318, -85.63568115234376); //  southwest coordinate
 const image_16_ne = L.latLng(72.23098799368212, -82.62542724609376); //  northeast coordinate
@@ -61,8 +81,8 @@ const megagon_industries_sw = L.latLng(81.92858708067713, -49.641554257440355);
 const megagon_industries_ne = L.latLng(82.70354383450336, -42.88528433004333);
 
 const greenlight_trailer_URL = "https://www.youtube.com/embed/_-KESI3qIBg";
-const greenlight_trailer_sw =  L.latLng(68.82585011229355, -86.26998910745671); 
-const greenlight_trailer_ne =  L.latLng(69.63989262488842, -83.21607799565199); 
+const greenlight_trailer_sw =  L.latLng(69.34604503609113, -79.74700927734376); 
+const greenlight_trailer_ne =  L.latLng(70.14465591204957, -76.65985107421875); 
 
 const yeti_mountain_URL = "https://www.youtube.com/embed/ojY8gIuQ8VI";
 const yeti_mountain_sw =  L.latLng(81.70917918992257, -125.10955810546876); 
@@ -79,6 +99,39 @@ const and_then_it_rained_ne =  L.latLng(81.68855913146949, -44.98077392578126);
 const twisted_lines_trailer_URL = "https://www.youtube.com/embed/x97HDeZO5ME";
 const twisted_lines_trailer_sw =  L.latLng(81.27696971088555, -44.76654052734375); 
 const twisted_lines_trailer_ne =  L.latLng(81.68697086546005, -41.05865478515626); 
+
+const lmd_climate_change_edition_URL = "https://www.youtube.com/embed/sc5Wynoihs0";
+const lmd_climate_change_edition_sw =  L.latLng(68.75490274229087, -87.58026123046875); 
+const lmd_climate_change_edition_ne =  L.latLng(69.73580786129756, -84.38873291015626); 
+
+const lmd_kickstarter_trailer_URL = "https://www.youtube.com/embed/Dj8MOIxOdUY";
+const lmd_kickstarter_trailer_sw =  L.latLng(67.25781893884714, -102.92266845703126); 
+const lmd_kickstarter_trailer_ne =  L.latLng(68.1394652752747, -99.82452392578126); 
+
+const lmd_demo_gameplay_URL = "https://www.youtube.com/embed/e0qrvuNWofk";
+const lmd_demo_gameplay_sw =  L.latLng(63.96221988247847, -85.64666748046876); 
+const lmd_demo_gameplay_ne =  L.latLng(65.14680748791784, -81.95526123046876); 
+
+const lmd_launch_trailer_URL = "https://www.youtube.com/embed/nfJxYa3kt5U";
+const lmd_launch_trailer_sw =  L.latLng(8.323473517578963, -96.44348144531251); 
+const lmd_launch_trailer_ne =  L.latLng(12.793588915696942, -90.35705566406251); 
+
+const lmd_dev_speedrun_URL = "https://www.youtube.com/embed/qpM_C2eSm-0";
+const lmd_dev_speedrun_sw =  L.latLng(-14.799845265580686, -81.75750732421876); 
+const lmd_dev_speedrun_ne =  L.latLng(-12.488604694020848, -78.60443115234376); 
+
+const lmd_eldfjall_island_URL = "https://www.youtube.com/embed/RFCKVPaETUk";
+const lmd_eldfjall_island_sw =  L.latLng(2.035338263850917, -64.26452636718751); 
+const lmd_eldfjall_island_ne =  L.latLng(5.783245444138244, -59.2327880859375); 
+
+const lmd_rileys_return_URL = "https://www.youtube.com/embed/jiqFO3n6vJ4";
+const lmd_rileys_return_sw =  L.latLng(-22.815175182710817, -51.02874755859376); 
+const lmd_rileys_return_ne =  L.latLng(-21.093213073347744, -48.53485107421876); 
+
+const lmd_misty_peak_URL = "https://www.youtube.com/embed/IPbK53UtYL0";
+const lmd_misty_peak_sw =  L.latLng(-22.114650504047564, -39.64691162109376); 
+const lmd_misty_peak_ne =  L.latLng(-21.088087883896886, -38.17474365234376); 
+
 
 //circular parameters for links with popups
 const circular_area_radius = 50000;
@@ -108,6 +161,26 @@ export {
     image_10_URL,
     image_10_sw,
     image_10_ne,
+
+    image_11_URL,
+    image_11_sw,
+    image_11_ne,
+
+    image_12_URL,
+    image_12_sw,
+    image_12_ne,
+
+    image_13_URL,
+    image_13_sw,
+    image_13_ne,
+
+    image_14_URL,
+    image_14_sw,
+    image_14_ne,
+
+    image_15_URL,
+    image_15_sw,
+    image_15_ne,
 
     image_16_URL,
     image_16_sw,
@@ -164,6 +237,39 @@ export {
     twisted_lines_trailer_URL,
     twisted_lines_trailer_sw,
     twisted_lines_trailer_ne,
+
+    lmd_climate_change_edition_URL,
+    lmd_climate_change_edition_sw,
+    lmd_climate_change_edition_ne,
+
+    lmd_kickstarter_trailer_URL,
+    lmd_kickstarter_trailer_sw,
+    lmd_kickstarter_trailer_ne,
+
+    lmd_demo_gameplay_URL,
+    lmd_demo_gameplay_sw,
+    lmd_demo_gameplay_ne,
+
+    lmd_launch_trailer_URL,
+    lmd_launch_trailer_sw,
+    lmd_launch_trailer_ne,
+
+    lmd_dev_speedrun_URL,
+    lmd_dev_speedrun_sw,
+    lmd_dev_speedrun_ne,
+
+    lmd_eldfjall_island_URL,
+    lmd_eldfjall_island_sw,
+    lmd_eldfjall_island_ne,
+
+    lmd_rileys_return_URL,
+    lmd_rileys_return_sw,
+    lmd_rileys_return_ne,
+
+    lmd_misty_peak_URL,
+    lmd_misty_peak_sw,
+    lmd_misty_peak_ne,
+
 
     circular_area_radius,
 
