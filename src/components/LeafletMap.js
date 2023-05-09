@@ -113,6 +113,9 @@ function LeafletMap() {
       <ImageOverlay url={constants.image_35_URL} bounds={L.latLngBounds(constants.image_35_sw, constants.image_35_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_36_URL} bounds={L.latLngBounds(constants.image_36_sw, constants.image_36_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_60_URL} bounds={L.latLngBounds(constants.image_60_sw, constants.image_60_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_78_URL} bounds={L.latLngBounds(constants.image_78_sw, constants.image_78_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_76_URL} bounds={L.latLngBounds(constants.image_76_sw, constants.image_76_ne)} opacity={1}/>
+      <ImageOverlay url={constants.image_77_URL} bounds={L.latLngBounds(constants.image_77_sw, constants.image_77_ne)} opacity={1}/>
   
   
 
