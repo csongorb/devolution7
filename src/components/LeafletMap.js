@@ -200,7 +200,7 @@ function LeafletMap() {
       center={constants.kickstarter_interview_bubenik_center}
       radius={constants.circular_area_radius}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -209,7 +209,7 @@ function LeafletMap() {
       center={constants.kickstarter_interview_helbig_center}
       radius={constants.circular_area_radius}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -219,7 +219,7 @@ function LeafletMap() {
       center={constants.igf_interview_center}
       radius={constants.circular_area_radius}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.igf_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -228,7 +228,7 @@ function LeafletMap() {
       center={constants.making_games_helbig1_center}
       radius={90000}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -237,7 +237,7 @@ function LeafletMap() {
       center={constants.making_games_bubenik1_center}
       radius={90000}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -246,7 +246,7 @@ function LeafletMap() {
       center={constants.kickstarter_interview_bubenik2_center}
       radius={100000}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -255,7 +255,16 @@ function LeafletMap() {
       center={constants.eggplant_interview_helbig1_center}
       radius={130000}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.eggplant_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.eggplant_interview_helbig2_center}
+      radius={370000}
+      stroke={false}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.eggplant_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -264,7 +273,16 @@ function LeafletMap() {
       center={constants.making_games_helbig2_center}
       radius={165000}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_bubenik3_center}
+      radius={260000}
+      stroke={false}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
@@ -273,9 +291,99 @@ function LeafletMap() {
       center={constants.eighty_lv_helbigandbubenik1_center}
       radius={280000}
       stroke={false}
-      fillOpacity={0.5}
+      fillOpacity={0.0}
       >
         <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.eighty_lv_helbig1_center}
+      radius={350000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_bubenik2_center}
+      radius={200000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_helbig3_center}
+      radius={220000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.syndrone_podcast_center}
+      radius={220000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.syndrone_podcast_URL} target="_blank" rel="noreferrer">podcast link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_helbig4_center}
+      radius={220000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_helbig5_center}
+      radius={220000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_bubenik_helbig_carev_center}
+      radius={400000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.eighty_lv_helbigandbubenik2_center}
+      radius={380000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.eighty_lv_helbigandbubenik3_center}
+      radius={350000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.bubenik_podcast_center}
+      radius={330000}
+      stroke={false}
+      fillOpacity={0.0}
+      >
+        <Popup><a href={constants.bubenik_podcast_URL} target="_blank" rel="noreferrer">podcast link</a></Popup>
       </Circle>
 
 

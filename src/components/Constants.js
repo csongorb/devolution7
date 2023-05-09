@@ -146,15 +146,31 @@ const igf_interview_center = L.latLng(80.91906707076518, -78.07983398437501);
 
 const making_games_pdf_URL = "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing"
 const making_games_helbig1_center = L.latLng(73.78989382063298, -107.08374023437501); 
-const making_games_helbig2_center = L.latLng(62.003998999884374, -80.27709960937501); 
+const making_games_helbig2_center = L.latLng(62.003998999884374, -80.27709960937501);
+const making_games_helbig3_center = L.latLng(48.96579381461063, -66.03881835937501); 
+const making_games_helbig4_center = L.latLng(45.47554027158593, -107.67700195312501); 
+const making_games_helbig5_center = L.latLng(-24.26699728841817, -101.17309570312501); 
 const making_games_bubenik1_center = L.latLng(73.5738184440644, -79.68383789062501); 
+const making_games_bubenik2_center = L.latLng(51.07315848415202, -75.81665039062501);
+const making_games_bubenik3_center = L.latLng(-5.922044619883305, -59.07348632812501);
+const making_games_bubenik_helbig_carev_center = L.latLng(-17.853290114098012, -62.39135742187501);
+
 
 const eggplant_interview_URL = "https://eggplant.show/63-finding-your-own-path-with-daniel-helbig"
 const eggplant_interview_helbig1_center = L.latLng(71.42227937635714, -100.096435546875); 
+const eggplant_interview_helbig2_center = L.latLng(-15.77110917357528, -44.26391601562501); 
 
 const eighty_lv_interview_URL = "https://80.lv/articles/level-game-production-lonely-mountains-downhill"
 const eighty_lv_helbigandbubenik1_center = L.latLng(61.1707946011717, -52.36083984375); 
+const eighty_lv_helbigandbubenik2_center = L.latLng(12.833226023521243, -117.58666992187501); 
+const eighty_lv_helbigandbubenik3_center = L.latLng(-16.93070509876553, -117.894287109375); 
+const eighty_lv_helbig1_center = L.latLng(-11.070602913977806, -33.32153320312501); 
 
+const syndrone_podcast_URL = "https://indiegameinternational.libsyn.com/lukas-meinardus-and-alex-binderer-syndrone-hell-pie"
+const syndrone_podcast_center = L.latLng(51.193115244645874, -96.05346679687501); 
+
+const bubenik_podcast_URL = "https://okcool.podigee.io/6-jan-bubenik"
+const bubenik_podcast_center = L.latLng(-25.443274612305746, -83.682861328125); 
 
 
 export {
@@ -300,5 +316,19 @@ export {
     eggplant_interview_helbig1_center,
     making_games_helbig2_center,
     eighty_lv_interview_URL, 
-    eighty_lv_helbigandbubenik1_center
+    eighty_lv_helbigandbubenik1_center,
+    making_games_bubenik2_center,
+    making_games_helbig3_center,
+    syndrone_podcast_URL,
+    syndrone_podcast_center,
+    making_games_helbig4_center,
+    eighty_lv_helbigandbubenik2_center,
+    eighty_lv_helbigandbubenik3_center,
+    making_games_helbig5_center,
+    bubenik_podcast_center,
+    bubenik_podcast_URL,
+    making_games_bubenik_helbig_carev_center,
+    eggplant_interview_helbig2_center,
+    eighty_lv_helbig1_center,
+    making_games_bubenik3_center
     };
