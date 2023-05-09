@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/devolution7/static/css/main.a2baa7e7.css",
+    "main.css": "/devolution7/static/css/main.ce150e3d.css",
     "main.js": "/devolution7/static/js/main.acc5e7bc.js",
     "static/media/version_1_1_4_small.jpg": "/devolution7/static/media/version_1_1_4_small.99bd60be06544f331d2c.jpg",
     "static/media/version_1_1_7_small.jpg": "/devolution7/static/media/version_1_1_7_small.5625f7196cedf4c092e1.jpg",
@@ -14,11 +14,11 @@
     "static/media/winicon.png": "/devolution7/static/media/winicon.28df4afa4b029e33deb5.png",
     "static/media/Logo_Devolution_small.png": "/devolution7/static/media/Logo_Devolution_small.6898f54892c210ccbd92.png",
     "index.html": "/devolution7/index.html",
-    "main.a2baa7e7.css.map": "/devolution7/static/css/main.a2baa7e7.css.map",
+    "main.ce150e3d.css.map": "/devolution7/static/css/main.ce150e3d.css.map",
     "main.acc5e7bc.js.map": "/devolution7/static/js/main.acc5e7bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2baa7e7.css",
+    "static/css/main.ce150e3d.css",
     "static/js/main.acc5e7bc.js"
   ]
 }
