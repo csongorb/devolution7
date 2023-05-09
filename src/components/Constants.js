@@ -152,6 +152,10 @@ const lmd_rileys_return_URL = "https://www.youtube.com/embed/jiqFO3n6vJ4";
 const lmd_rileys_return_sw =  L.latLng(-22.815175182710817, -51.02874755859376); 
 const lmd_rileys_return_ne =  L.latLng(-21.093213073347744, -48.53485107421876); 
 
+const lmd_culling_URL = "https://www.youtube.com/embed/rfRRMA3o-Zs";
+const lmd_culling_sw =  L.latLng(59.02642243660573, -66.06628417968751); 
+const lmd_culling_ne =  L.latLng(60.41656438628133, -62.35290527343751); 
+
 const lmd_misty_peak_URL = "https://www.youtube.com/embed/IPbK53UtYL0";
 const lmd_misty_peak_sw =  L.latLng(-22.114650504047564, -39.64691162109376); 
 const lmd_misty_peak_ne =  L.latLng(-21.088087883896886, -38.17474365234376); 
@@ -347,7 +351,11 @@ export {
     gamedeveloper_interview_URL,
     gamedeveloper_interview_sw,
     gamedeveloper_interview_ne,
-    
+
+    lmd_culling_URL,
+    lmd_culling_sw,
+    lmd_culling_ne,
+
     circular_area_radius,
 
     kickstarter_interview_URL,

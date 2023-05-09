@@ -126,7 +126,6 @@ function LeafletMap() {
         </Popup>
       </Rectangle>
 
-
       <Rectangle
         bounds={[constants.greenlight_trailer_sw, constants.greenlight_trailer_ne]}
         color="#66000000"
@@ -134,6 +133,16 @@ function LeafletMap() {
       >
         <Popup>
         <iframe width="300" height="169" src={constants.greenlight_trailer_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Popup>
+      </Rectangle>
+
+      <Rectangle
+        bounds={[constants.lmd_culling_sw, constants.lmd_culling_ne]}
+        color="#66000000"
+        fillOpacity={0}
+      >
+        <Popup>
+        <iframe width="300" height="169" src={constants.lmd_culling_URL} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Popup>
       </Rectangle>
 
