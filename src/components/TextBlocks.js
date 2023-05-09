@@ -19,7 +19,7 @@ import osxicon from "../../src/assets/images/platforms/osxicon.png"
 function TextBlocks() {
   return (
     <div className='text-block-container'>
-    <div className="text-block">
+    <div className="text-block" id='devolution'>
       <h1>
       Devolution - Lounly Mountains: Downhill
       </h1>
@@ -98,7 +98,7 @@ function TextBlocks() {
 
     </div>
 
-    <div className="text-block">
+    <div className="text-block" id='total-digital'>
       <h1>
       Total Digital
       </h1>
@@ -125,7 +125,7 @@ function TextBlocks() {
 
     </div>
 
-    <div className="text-block">
+    <div className="text-block" id='evolution'>
       <h1>
         The Evolution of Lonely Mountains: Downhill
       </h1>
@@ -147,7 +147,7 @@ function TextBlocks() {
       </table>
     </div>
 
-    <div className="text-block">
+    <div className="text-block" id='timeline'>
     <h1>
       Explore the Timeline!
     </h1>
@@ -157,7 +157,7 @@ function TextBlocks() {
       <LeafletMap/>
     </div>
 
-    <div className="text-block">
+    <div className="text-block" id='versions'>
       <h1>
       Play the Versions!
       </h1>
@@ -170,7 +170,7 @@ function TextBlocks() {
       The versions’ network features may be non-functional or limited. By downloading and using these versions, you agree that we do not take any responsibility for any issues that may occur as a result of such.<br />
       Please note that we have tested these versions to the best of our knowledge.</small></p>
       <br />
-      <div className="versions">
+      <div className="versions" >
       <table className="versions">
         <tr>
         <td width="20%">

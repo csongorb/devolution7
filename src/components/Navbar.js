@@ -3,12 +3,19 @@ import './Navbar.css';
 import logo from "../../src/assets/Logo_Devolution_small.png"
 
 
-function Navbar() {
+function Navbar(props) {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
+    const handleItemClick = (id) => {
+        if (props.onItemClick) {
+          props.onItemClick(id);
+          closeMobileMenu();
+        }
+      };
 
     const showButton = () => {
         if(window.innerWidth <= 960)
@@ -36,18 +43,18 @@ function Navbar() {
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} />
                 </div>
-                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-item'>
-                        <p className='nav-links' onClick={closeMobileMenu}>
-                            Home
-                        </p>
-                    </li>
-                    <li className='nav-item'>
-                        <p className='nav-links' onClick={closeMobileMenu}>
-                            About
-                        </p>
-                    </li>
-                </ul>
+                <div className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <p className='nav-links' onClick={() => handleItemClick('devolution')}>
+                            Devolution</p>                                      
+                        <p className='nav-links' onClick={() => handleItemClick('total-digital')}>
+                            Total Digital</p>                                     
+                        <p className='nav-links' onClick={() => handleItemClick('evolution')}>
+                        Evolution of Lonely Mountains</p>                                       
+                        <p className='nav-links' onClick={() => handleItemClick('timeline')}>
+                        Explore the Timeline</p>                   
+                        <p className='nav-links' onClick={() => handleItemClick('versions')}>
+                        Play the Versions</p>                    
+                </div>
             </div>
         </nav>
     </>
