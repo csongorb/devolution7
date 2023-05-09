@@ -138,13 +138,22 @@ const circular_area_radius = 50000;
 
 const kickstarter_interview_URL = "https://www.redbull.com/ca-en/lonely-mountains-downhill-kickstarter-interview";
 const kickstarter_interview_bubenik_center = L.latLng(84.06756838040903, -90.41748046875001); 
+const kickstarter_interview_bubenik2_center = L.latLng(72.02854424228212, -50.67993164062501); 
 const kickstarter_interview_helbig_center = L.latLng(83.4007996617237, -99.39331054687501); 
 
 const igf_interview_URL = "https://www.gamedeveloper.com/disciplines/road-to-the-igf-megagon-industries-i-lonely-mountains-downhill-i-"
 const igf_interview_center = L.latLng(80.91906707076518, -78.07983398437501); 
 
-const making_games_pdf_URL = "https://www.gamedeveloper.com/disciplines/road-to-the-igf-megagon-industries-i-lonely-mountains-downhill-i-"
-const making_games_pdf_center = L.latLng(73.78989382063298, -107.08374023437501); 
+const making_games_pdf_URL = "https://drive.google.com/file/d/1ZT_iiETM7TVt2yMrNAVVoOUGsonVm1Zv/view?usp=sharing"
+const making_games_helbig1_center = L.latLng(73.78989382063298, -107.08374023437501); 
+const making_games_helbig2_center = L.latLng(62.003998999884374, -80.27709960937501); 
+const making_games_bubenik1_center = L.latLng(73.5738184440644, -79.68383789062501); 
+
+const eggplant_interview_URL = "https://eggplant.show/63-finding-your-own-path-with-daniel-helbig"
+const eggplant_interview_helbig1_center = L.latLng(71.42227937635714, -100.096435546875); 
+
+const eighty_lv_interview_URL = "https://80.lv/articles/level-game-production-lonely-mountains-downhill"
+const eighty_lv_helbigandbubenik1_center = L.latLng(61.1707946011717, -52.36083984375); 
 
 
 
@@ -284,6 +293,12 @@ export {
     igf_interview_URL,
     igf_interview_center,
     making_games_pdf_URL,
-    making_games_pdf_center
-
+    making_games_helbig1_center,
+    making_games_bubenik1_center,
+    kickstarter_interview_bubenik2_center,
+    eggplant_interview_URL,
+    eggplant_interview_helbig1_center,
+    making_games_helbig2_center,
+    eighty_lv_interview_URL, 
+    eighty_lv_helbigandbubenik1_center
     };

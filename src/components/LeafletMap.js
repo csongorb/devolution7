@@ -225,13 +225,59 @@ function LeafletMap() {
       </Circle>
 
       <Circle
-      center={constants.making_games_pdf_center}
-      radius={constants.circular_area_radius}
+      center={constants.making_games_helbig1_center}
+      radius={90000}
       stroke={false}
       fillOpacity={0.5}
       >
         <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
       </Circle>
+
+      <Circle
+      center={constants.making_games_bubenik1_center}
+      radius={90000}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.kickstarter_interview_bubenik2_center}
+      radius={100000}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.kickstarter_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.eggplant_interview_helbig1_center}
+      radius={130000}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.eggplant_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.making_games_helbig2_center}
+      radius={165000}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.making_games_pdf_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
+      <Circle
+      center={constants.eighty_lv_helbigandbubenik1_center}
+      radius={280000}
+      stroke={false}
+      fillOpacity={0.5}
+      >
+        <Popup><a href={constants.eighty_lv_interview_URL} target="_blank" rel="noreferrer">interview link</a></Popup>
+      </Circle>
+
 
       <ImageOverlay url={constants.image_7_URL} bounds={L.latLngBounds(constants.image_7_sw, constants.image_7_ne)} opacity={1}/>
       <ImageOverlay url={constants.image_8_URL} bounds={L.latLngBounds(constants.image_8_sw, constants.image_8_ne)} opacity={1}/>
