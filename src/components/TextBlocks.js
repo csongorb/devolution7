@@ -146,7 +146,7 @@ Looking at games and game development from the perspective of Devolution lets yo
       <div className="versions-container" >
         <div className='versions-wrapper'>
         <ul className='versions-items'>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
           <h3>Android 001</h3>
           July 16th 2015<br />
           <img src={android1} width="150" height="150" alt="Android_001"></img>
@@ -156,66 +156,70 @@ Looking at games and game development from the perspective of Devolution lets yo
             </a><br />
             <small>First Prototype</small>
             </div>
-            <div className='version-item'>
+            <div className='version-item' className="centeredText">
               <h3>Android 003</h3>
             October 19th 2015<br />
-            <img src={android2} width="150" height="150" alt="Android_003"></img> <br />
+            <img src={android2} width="150" height="150" alt="Android_003"></img>
             <br />
             <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/151019_downhill_003.apk">
               <img src={androidicon} width="40" height="40" alt="Android_003"></img>
               </a><br />
               <small>Polished Prototype</small>
           </div>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
           <h3>Android 005</h3>
           January 22nd 2016<br />
-           <img src={android3} width="150" height="150" alt="Android_005"></img> <br />
+           <img src={android3} width="150" height="150" alt="Android_005"></img>
            <br />
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160122_downhill_005.apk">
             <img src={androidicon} width="40" height="40" alt="Android_005"></img>
             </a><br />
-            <small>Controler Experimentation on Mobile</small>
+            <small>Controler Experimentation <br />
+            on Mobile</small>
           </div>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
           <h3>Android 013</h3>
           June 29th 2016<br />
-           <img src={android4} width="150" height="150" alt="Android_013"></img> <br />
+           <img src={android4} width="150" height="150" alt="Android_013"></img>
            <br />
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160629_downhill_013.apk">
             <img src={androidicon} width="40" height="40" alt="Android_013"></img>
             </a><br />
-            <small>First Mountains & Transition to PC</small>
+            <small>First Mountains & <br />
+            Transition to PC</small>
           </div>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
             <h3>Proto March 16</h3>
-          March 23rd 2016<br />
-           <img src={version5} width="150" height="150" alt="Proto March 16"></img> <br />
+            March 23rd 2016<br />
+           <img src={version5} width="150" height="150" alt="Proto March 16"></img>
            <br />
-           <div className='version-item-platforms'>
+           <div className='version-item-platforms' className="centeredText">
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160323_Proto_March16.zip">
             <img src={winicon} width="40" height="40" alt="Proto March 16"></img>
             </a>
              </div>
-            <small>Controler Experimentation on PC</small>
+            <small>Controler Experimentation
+            <br />on PC</small>
           </div>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
           <h3>Proto August 16</h3>
           August 16th 2016<br />
-           <img src={version6} width="150" height="150" alt="Proto August 16"></img> <br />
+           <img src={version6} width="150" height="150" alt="Proto August 16"></img>
            <br />
-           <div className='version-item-platforms'>
+           <div className='version-item-platforms' className="centeredText">
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160816_Proto_August16.zip">
             <img src={winicon} width="40" height="40" alt="Proto August 16"></img>
             </a>
              </div>
-            <small>First Mountains & Transition from Mobile</small>
+            <small>First Mountains
+            <br />& Transition from Mobile</small>
           </div>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
           <h3>Backer Demo</h3>
           November 18th 2017<br />
-           <img src={version7} width="150" height="150" alt="Backer Demo"></img> <br />
+           <img src={version7} width="150" height="150" alt="Backer Demo"></img>
            <br />
-           <div className='version-item-platforms'>
+           <div className='version-item-platforms' className="centeredText">
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/171118_BackerDemo_v1.zip">
             <img src={winicon} width="40" height="40" alt="Backer Demo"></img>
             </a>
@@ -225,12 +229,12 @@ Looking at games and game development from the perspective of Devolution lets yo
              </div>
             <small>Backer Demo</small>
           </div>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
           <h3>Dev Access 1.1.4</h3>
           May 3rd 2018<br />
-           <img src={version8} width="150" height="150" alt="Dev Access 1.1.4"></img> <br />
+           <img src={version8} width="150" height="150" alt="Dev Access 1.1.4"></img>
            <br />
-           <div className='version-item-platforms'>
+           <div className='version-item-platforms' className="centeredText">
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/180503_DevAccess_0_1_4.zip">
             <img src={winicon} width="40" height="40" alt="Dev Access 1.1.4"></img>
             </a>
@@ -238,14 +242,15 @@ Looking at games and game development from the perspective of Devolution lets yo
              <img src={osxicon} width="40" height="40" alt="Dev Access 1.1.4"></img>
              </a>
              </div>
-            <small>New Terrain System & Growing Mountains</small>
+            <small>New Terrain System <br />
+            & Growing Mountains</small>
           </div>
-          <div className='version-item'>
+          <div className='version-item' className="centeredText">
           <h3>Dev Access 1.1.7</h3>
           September 10th 2018<br />
-          <img src={version9} width="150" height="150" alt="Dev Access 1.1.7"></img> <br />
+          <img src={version9} width="150" height="150" alt="Dev Access 1.1.7"></img>
           <br />
-          <div className='version-item-platforms'>
+          <div className='version-item-platforms' className="centeredText">
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/180910_DevAccess_0_1_7.zip">
            <img src={winicon} width="40" height="40" alt="Dev Access 1.1.7"></img>
            </a>
@@ -253,7 +258,8 @@ Looking at games and game development from the perspective of Devolution lets yo
             <img src={osxicon} width="40" height="40" alt="Dev Access 1.1.7"></img>
             </a>
             </div>
-           <small>Progression System & More Mountains</small>
+           <small>Progression System <br />
+           & More Mountains</small>
           </div>
         </ul>
         </div>

@@ -4,6 +4,10 @@ table tr td {
   text-align: justify;
 }
 
+.centeredText {
+  text-align: center;
+}
+
 ul {
   padding: 20px;
 }
@@ -22,7 +26,7 @@ ul {
 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;    
+  gap: 10px;
 }
 
 .text-table-block
@@ -88,8 +92,3 @@ ul {
   display: flex;
   flex-direction: row;
 }
-
-
-
-
-
