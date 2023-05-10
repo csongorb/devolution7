@@ -21,7 +21,7 @@ function TextBlocks() {
     <div className='text-block-container'>
     <div className="text-block" id='devolution'>
       <h1>
-      Devolution - Lounly Mountains: Downhill
+      Devolution - Lounely Mountains: Downhill
       </h1>
       <br />
       <a target="_blank" rel="noopener noreferrer" href="https://devolution.online">Devolution</a> is exploring and dissecting the creative process of game development, encountering new characteristics with every new edition.
