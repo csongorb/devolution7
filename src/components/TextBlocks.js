@@ -240,7 +240,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           <div className='version-item'>
           <h3>Dev Access 1.1.4</h3>
           May 3rd 2018<br />
-           <img src={version8} className="centeredImage" width="150" height="150" alt="Dev Access 1.1.4"></img>
+           <img src={version8} className="centeredImage" width="150" height="150" alt="Dev Access 0.1.4"></img>
            <br />
            <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/180503_DevAccess_0_1_4.zip">
@@ -256,7 +256,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           <div className='version-item'>
           <h3>Dev Access 1.1.7</h3>
           September 10th 2018<br />
-          <img src={version9} className="centeredImage" width="150" height="150" alt="Dev Access 1.1.7"></img>
+          <img src={version9} className="centeredImage" width="150" height="150" alt="Dev Access 0.1.7"></img>
           <br />
           <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/180910_DevAccess_0_1_7.zip">
