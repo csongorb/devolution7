@@ -193,7 +193,7 @@ Looking at games and game development from the perspective of Devolution lets yo
             March 23rd 2016<br />
            <img src={version5} className="centeredImage" width="150" height="150" alt="Proto March 16"></img>
            <br />
-           <div className='version-item-platforms' className="centeredText">
+           <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160323_Proto_March16.zip">
             <img src={winicon} width="40" height="40" alt="Proto March 16"></img>
             </a>
@@ -206,7 +206,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           August 16th 2016<br />
            <img src={version6} className="centeredImage" width="150" height="150" alt="Proto August 16"></img>
            <br />
-           <div className='version-item-platforms' className="centeredText">
+           <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160816_Proto_August16.zip">
             <img src={winicon} width="40" height="40" alt="Proto August 16"></img>
             </a>
@@ -219,7 +219,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           November 18th 2017<br />
            <img src={version7} className="centeredImage" width="150" height="150" alt="Backer Demo"></img>
            <br />
-           <div className='version-item-platforms' className="centeredText">
+           <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/171118_BackerDemo_v1.zip">
             <img src={winicon} width="40" height="40" alt="Backer Demo"></img>
             </a>
@@ -234,7 +234,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           May 3rd 2018<br />
            <img src={version8} className="centeredImage" width="150" height="150" alt="Dev Access 1.1.4"></img>
            <br />
-           <div className='version-item-platforms' className="centeredText">
+           <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/180503_DevAccess_0_1_4.zip">
             <img src={winicon} width="40" height="40" alt="Dev Access 1.1.4"></img>
             </a>
@@ -250,7 +250,7 @@ Looking at games and game development from the perspective of Devolution lets yo
           September 10th 2018<br />
           <img src={version9} className="centeredImage" width="150" height="150" alt="Dev Access 1.1.7"></img>
           <br />
-          <div className='version-item-platforms' className="centeredText">
+          <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/180910_DevAccess_0_1_7.zip">
            <img src={winicon} width="40" height="40" alt="Dev Access 1.1.7"></img>
            </a>
