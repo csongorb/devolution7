@@ -151,9 +151,11 @@ Looking at games and game development from the perspective of Devolution lets yo
           July 16th 2015<br />
           <img src={android1} className="centeredImage" width="150" height="150" alt="Android_001"></img>
           <br />
+          <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/150716_downhill_001.apk">
             <img src={androidicon} width="40" height="40" alt="Android_001"></img>
-            </a><br />
+            </a>
+            </div>
             <small>First Prototype</small>
             </div>
             <div className='version-item'>
@@ -161,9 +163,11 @@ Looking at games and game development from the perspective of Devolution lets yo
             October 19th 2015<br />
             <img src={android2} className="centeredImage" width="150" height="150" alt="Android_003"></img>
             <br />
+            <div className='version-item-platforms'>
             <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/151019_downhill_003.apk">
               <img src={androidicon} width="40" height="40" alt="Android_003"></img>
-              </a><br />
+              </a>
+              </div>
               <small>Polished Prototype</small>
           </div>
           <div className='version-item'>
@@ -171,9 +175,11 @@ Looking at games and game development from the perspective of Devolution lets yo
           January 22nd 2016<br />
            <img src={android3} className="centeredImage" width="150" height="150" alt="Android_005"></img>
            <br />
+           <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160122_downhill_005.apk">
             <img src={androidicon} width="40" height="40" alt="Android_005"></img>
-            </a><br />
+            </a>
+            </div>
             <small>Controller Experimentation <br />
             on Mobile</small>
           </div>
@@ -182,9 +188,11 @@ Looking at games and game development from the perspective of Devolution lets yo
           June 29th 2016<br />
            <img src={android4} className="centeredImage" width="150" height="150" alt="Android_013"></img>
            <br />
+           <div className='version-item-platforms'>
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160629_downhill_013.apk">
             <img src={androidicon} width="40" height="40" alt="Android_013"></img>
-            </a><br />
+            </a>
+            </div>
             <small>First Mountains & <br />
             Transition to PC</small>
           </div>
