@@ -174,7 +174,7 @@ Looking at games and game development from the perspective of Devolution lets yo
            <a target="_blank" rel="noopener noreferrer" href="http://devolution.online/lmd/160122_downhill_005.apk">
             <img src={androidicon} width="40" height="40" alt="Android_005"></img>
             </a><br />
-            <small>Controler Experimentation <br />
+            <small>Controller Experimentation <br />
             on Mobile</small>
           </div>
           <div className='version-item'>
@@ -198,7 +198,7 @@ Looking at games and game development from the perspective of Devolution lets yo
             <img src={winicon} width="40" height="40" alt="Proto March 16"></img>
             </a>
              </div>
-            <small>Controler Experimentation
+            <small>Controller Experimentation
             <br />on PC</small>
           </div>
           <div className='version-item'>
@@ -305,8 +305,7 @@ Looking at games and game development from the perspective of Devolution lets yo
         <h3>Partners</h3>
         <br />
         Devolution #7 - Lonely Mountains: Downhill is a cooperation between <a target="_blank" rel="noopener noreferrer" href="https://devolution.online/">Devolution</a>
-        , <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/">A MAZE. / Berlin 2023</a>, <a target="_blank" rel="noopener noreferrer" href="https://megagonindustries.com/">Megagon Industries</a>
-        and UE University of Europe for Applied Sciences.<br />
+        , <a target="_blank" rel="noopener noreferrer" href="https://2023.amaze-berlin.de/">A MAZE. / Berlin 2023</a>, <a target="_blank" rel="noopener noreferrer" href="https://megagonindustries.com/">Megagon Industries</a> and UE University of Europe for Applied Sciences.<br />
         <br />
         Huge THANK YOU to the developers for their trust, cooperation and support!
       </div>
