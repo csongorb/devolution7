@@ -4,8 +4,11 @@ table tr td {
   text-align: justify;
 }
 
-.centeredText {
-  text-align: center;
+.centeredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 ul {
@@ -20,7 +23,7 @@ ul {
   margin: 0 auto;
   row-gap: 15px;
   padding: 1em;
-  
+
 }
 
 .text-block-columns
@@ -49,7 +52,7 @@ ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: left;
   place-self: center;
-  background-color: #f4f4f4 
+  background-color: #f4f4f4
 }
 
 .map-block
@@ -84,6 +87,7 @@ ul {
 }
 
 .version-item {
+  text-align: center;
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -91,6 +95,7 @@ ul {
   text-decoration: none;
 }
 .version-item-platforms{
+  text-align: center;
   display: flex;
   flex-direction: row;
 }
