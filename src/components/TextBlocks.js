@@ -323,7 +323,7 @@ Looking at games and game development from the perspective of Devolution lets yo
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/al.085/">Almat Kabdolov</a> (Concept Art, Graphic Design)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anna-margret-jonudottir-912226274/">Anna Margrét Jónudóttir</a> (Exhibition Moderation, Timeline, Website)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/christoph-maureder-093088211/">Christoph Maureder</a> (Tech Advising)</li>
-        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rzldzl_/">Diana-Maria Niculescu</a> (Exhibition Moderation, PR, Social Media)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/diana-niculescu-game-artist/">Diana-Maria Niculescu</a> (Exhibition Moderation, PR, Social Media)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/eyal-peleg-harris-393ba6273/">Eyal Peleg Harris</a> (Producer)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/supersymetria/">Hanna Kołodziejczyk</a> (Graphic Design)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://janwatever.artstation.com/">Jan Teo Jia Xian</a> (Exhibition Director)</li>
@@ -332,7 +332,7 @@ Looking at games and game development from the perspective of Devolution lets yo
         <li><a target="_blank" rel="noopener noreferrer" href="https://maria-shchurova.github.io/">Maria Shchurova</a> (Website)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mark-komives-524951183/">Mark Komives</a> (Graphic Design)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/maschacamino">Mascha Camino</a> (Advising)</li>
-        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nayan_kira?s=20">Nayan Bhat</a> (Devolution #6 Website Update)</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nayan-bhat-gd/">Nayan Bhat</a> (Devolution #6 Website Update)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pavlo-vasylevych-969099243/">Pavlo Vasylevych</a> (Producer)</li>
         <li><a target="_blank" rel="noopener noreferrer" href="http://csongorb.com/">Csongor Baranyai</a> (Creative Direction, Curation)</li>
       </ul>
